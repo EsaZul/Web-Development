@@ -1,0 +1,76 @@
+/*Carolyn Driving*/
+h1 {
+	text-align: center;
+}
+
+body{
+	background-color: #e6fff2;
+	text-align: center;
+}
+
+#links {
+	text-align: center;
+	display: inline-block;
+	padding: 15px 15px;
+	color: white;
+	background-color: #006699;
+	font-size: 20px;
+	border-color: #e6fff2;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+img {
+	width: 33%;
+	height: 20%;
+}
+
+#title{
+	text-transform: capitalize;
+	font-style: italic;
+	font-family: "Georgia";
+	font-size: 25px;
+	text-decoration: underline overline;
+	font-weight: bold;
+}
+
+#commentFormat{
+	font-size: 20px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#important{
+	font-weight: bold;
+}
+
+#unit {
+	border: 5px;
+	border-top-style: dotted;
+    border-top-color: #006699;
+}
+
+#button {
+	color: white;
+	background-color: #006699;
+	border: 2px solid #006699;
+	border-radius: 12px;
+}
+
+#sbutton {
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	background-color: #006699;
+	border: 2px solid #006699;
+	border-radius: 12px;
+	padding: 30px 30px;
+}
+
+#divider{
+    margin-left: 5px;
+    margin-right: 5px:
+}
+/*Carolyn End Driving*/

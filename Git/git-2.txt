@@ -1,0 +1,242 @@
+Script started on Thu 06 Feb 2020 07:30:01 AM CST
+[?1034heruiz@kamek (/home/ecelrc/students/eruiz/git-katas) % cd basic-stq[Ka
+basic-staging/  basic-stashing/ 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas) % cd basic-staging/
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging) % e[Kwhoami
+eruiz
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging) % l [Ks README.md  
+README.md
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging) % cat README.mdd 
+# Git Kata: Basic Staging
+
+This kata will examine the staging area of git.
+
+In git we are working with three different areas:
+* The working directory where you are making your changes
+* The staging area where all changes you have added through `git add` will stay
+* The repository where every commit ends up, making your history. To put your staged changes in here you issue the `git commit` command.
+
+A file can have changes both in the working directory and staging area at the same time.
+These changes do not have to be the same.
+
+We will also work with `git reset` to reset the staged changes of a file, and `git checkout` to return a file to a previous state.
+
+## Setup:
+
+1. Run `. setup.sh` (or `.\setup.ps1` in PowerShell)
+
+## The task
+
+You live in your own repository. There is a file called `file.txt`.
+
+1. What's the content of `file.txt`?
+2. Overwrite the content in `file.txt`: `echo 2 > file.txt` to change the state of your file in the working directory (or `sc file.txt '2'` in PowerShell)
+3. What does `git diff` tell you?
+4. What does `git diff --staged` tell you? why is this blank?
+5. Run `git add file.txt` to stage your changes from the working directory.
+6. What does `git diff` tell you?
+7. What does `git diff --staged` tell you?
+8. Overwrite the content in `file.txt`: `echo 3 > file.txt` to change the state of your file in the working directory (or `sc file.txt '3'` in PowerShell).
+9. What does `git diff` tell you?
+10. What does `git diff --staged` tell you?
+11. Explain what is happening
+12. Run `git status` and observe that `file.txt` are present twice in the output.
+13. Run `git reset HEAD file.txt` to unstage the change
+14. What does `git status` tell you now?
+15. Stage the change and make a commit
+16. What does the log look like?
+17. Overwrite the content in `file.txt`: `echo 4 > file.txt` (or `sc file.txt '4'` in PowerShell)
+18. What is the content of `file.txt`?
+19. What does `git status` tell us?
+20. Run `git checkout file.txt`
+21. What is the content of `file.txt`?
+22. What does `git status` tell us?
+
+
+
+## Useful commands
+
+- `git add`
+- `git commit`
+- `git commit -m "My lazy short commit message"`
+- `git reset`
+- `git checkout`
+- `git log`
+- `git log -n 5`
+- `git log --oneline`
+- `git log --oneline --graph`
+- `git reset HEAD `
+- `git checkout`
+
+## Aliases
+
+You can set up aliases as such:
+`git config --global alias.lol 'log --oneline --graph --all'`
+This might be useful to you.
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging) % [Keruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging) % l[K./setup.sh 
+Initialized empty Git repository in /home/ecelrc/students/eruiz/git-katas/basic-staging/exercise/.git/
+[master (root-commit) 9925b19] 1
+ Committer: Eduardo S Ruiz <eruiz@kamek.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 file.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging) % ls
+exercise  README.md  setup.ps1	setup.sh
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging) % cd exercise/
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % ls
+file.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git checkout file.txt 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % cat [K[K[K[Kgit [Kca[K[K cat file.txt 
+git: 'cat' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+	clean
+	mktag
+	stage
+	stash
+	tag
+	var
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % cat g[Kfile.txt 
+1
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % echo 2>[K > file.txt 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git diff
+[?1h=diff --git a/file.txt b/file.txt[m
+index d00491f..0cfbf08 100644[m
+--- a/file.txt[m
++++ b/file.txt[m
+@@ -1 +1 @@[m
+-1[m
++2[m
+[K[?1l>eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git diff --staged
+[?1h=[K[?1l>eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git add file.txt 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git diff
+[?1h=[K[?1l>eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git diffadd file.txt diff --staged[K --staged
+[?1h=diff --git a/file.txt b/file.txt[m
+index d00491f..0cfbf08 100644[m
+--- a/file.txt[m
++++ b/file.txt[m
+@@ -1 +1 @@[m
+-1[m
++2[m
+[K[?1l>eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % echo 3 > file.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git diff
+[?1h=diff --git a/file.txt b/file.txt[m
+index 0cfbf08..00750ed 100644[m
+--- a/file.txt[m
++++ b/file.txt[m
+@@ -1 +1 @@[m
+-2[m
++3[m
+[K[?1l>eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git diff --staged
+[?1h=diff --git a/file.txt b/file.txt[m
+index d00491f..0cfbf08 100644[m
+--- a/file.txt[m
++++ b/file.txt[m
+@@ -1 +1 @@[m
+-1[m
++2[m
+[K[?1l>eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % diff[Kference is that [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   file.txt
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   file.txt
+#
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git reset HEAD file.txt 
+Unstaged changes after reset:
+M	file.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git status
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   file.txt
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % ad[K[Kgit add file.txt 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git stauts
+git: 'stauts' is not a git command. See 'git --help'.
+
+Did you mean this?
+	status
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   file.txt
+#
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git commit
+[?1049h[?1h=[1;49r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[49;1H".git/COMMIT_EDITMSG" 12L, 310C[2;1H# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Eduardo S Ruiz <eruiz@kamek.(none)>
+#
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#[7Cmodified:   file.txt
+#
+[1m[34m~                                                                                                                                                                           [14;1H~                                                                                                                                                                           [15;1H~                                                                                                                                                                           [16;1H~                                                                                                                                                                           [17;1H~                                                                                                                                                                           [18;1H~                                                                                                                                                                           [19;1H~                                                                                                                                                                           [20;1H~                                                                                                                                                                           [21;1H~                                                                                                                                                                           [22;1H~                                                                                                                                                                           [23;1H~                                                                                                                                                                           [24;1H~                                                                                                                                                                           [25;1H~                                                                                                                                                                           [26;1H~                                                                                                                                                                           [27;1H~                                                                                                                                                                           [28;1H~                                                                                                                                                                           [29;1H~                                                                                                                                                                           [30;1H~                                                                                                                                                                           [31;1H~                                                                                                                                                                           [32;1H~                                                                                                                                                                           [33;1H~                                                                                                                                                                           [34;1H~                                                                                                                                                                           [35;1H~                                                                                                                                                                           [36;1H~                                                                                                                                                                           [37;1H~                                                                                                                                                                           [38;1H~                                                                                                                                                                           [39;1H~                                                                                                                                                                           [40;1H~                                                                                                                                                                           [41;1H~                                                                                                                                                                           [42;1H~                                                                                                                                                                           [43;1H~                                                                                                                                                                           [44;1H~                                                                                                                                                                           [45;1H~                                                                                                                                                                           [46;1H~                                                                                                                                                                           [47;1H~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [1;1H[?12l[?25h[?25l[m[49;1H[K[49;1H:[?12l[?25h1[?25l[49;2H[K[49;2H[?12l[?25hq[?25l[49;1H[K[49;1H[?1l>[?12l[?25h[?1049lAborting commit due to empty commit message.
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % commit [K[K[K[K[K[K[Kgit commit file.txt -m first comm[K[K[K[K[K[K[K[K[K[K[K "first commit"
+[master 2040178] first commit
+ Committer: Eduardo S Ruiz <eruiz@kamek.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git ss[Ktatus
+# On branch master
+nothing to commit (working directory clean)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % echo[K[K[K[Klog still not working for me
+bash: log: command not found
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git echo 4 > file.txt 
+git: 'echo' is not a git command. See 'git --help'.
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git [K[K[K[Kgit echo 4 > file.txt log still not working for me[18Pgit statuscommit file.txt -m "first commit"[Kstatusutsadd file.txt [7Pstatusreset HEAD file.txt status[Kdiff --staged[Kecho 3 > file.txtgit diff --staged[Kadd file.txt diff --staged[Kecho 2 > file.txt [5Pcat[C[C[C[C[C[C[C[C[C[C[5@echo 2 >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@4
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % cat file.txt 
+4
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git status
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   file.txt
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git checkout file.txt 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % git status
+# On branch master
+nothing to commit (working directory clean)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % cat gi[K[Kfile.txt 
+3
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-staging/exercise) % exit
+exit
+
+Script done on Thu 06 Feb 2020 07:43:54 AM CST

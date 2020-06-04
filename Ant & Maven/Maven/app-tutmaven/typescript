@@ -1,0 +1,1480 @@
+Script started on 2020-02-20 13:31:34-06:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="80" LINES="24"]
+]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ validate
+bash: validate: command not found
+]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ mvn validate
+[?25l[H[80X[80C[32m
+Ugly@DESKTOP-S23UG9M [33m~/app-name[m[49X[49C
+$ validate[70X[70C
+bash: validate: command not found[47X[47C
+[80X[80C[32m
+Ugly@DESKTOP-S23UG9M [33m~/app-name[m[49X[49C
+$ mvn validate[66X[66C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C[8;1H[?25h[[?25l[1;34mINFO[m] Scanning for projects...
+[?25h[[?25l[[1;34mINFO[m] [63X[63C
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.mycompany.app:app-name[0
+;1m >-------------------[56X[56C[11;25H[?25h[?25l;1m >---------------------[m[25X[25C
+[[1;34mINFO[m] [1mBuilding app-name 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------       [13;48H[?25h[?25l[[1;34mINFO[m] [1m--------------------------------[ jar ]--------------------
+-------------[m[64X[64C
+[[1;34mINFO[m] [[61X[61C[15;20H[?25h[?25l[[1;34mINFO[m] [1m-----------------------------------------------------------
+-------------[m[64X[64C
+[[1;34mINFO[m] [1;32[57X[57C[17;24H[?25h[?25l[[1;34mINFO[m] [1;32mBUILD SUCCESS[m[40X[40C
+[[1;34mINFO[m] [1m-----------------------------------------------------------
+-------------[m[64X[64C
+[?25h[?25l[[1;34mINFO[m] Total time:  0.201 s[18X[18C
+[[1;34mINFO[m] Finished at: 2020-02-20T13:31:49-06:00
+[[1;34mINF[44X[44C[22;12H[?25h[?25l[[1;34mINFO[m] [1m-----------------------------------------------------------
+-------------[m[64X[64C
+[?25h]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ mvn validate[K[K[K[K[K[K[K[Kcompile
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.mycompany.app:app-name[0[?25h[?25l
+;1m >--------------[61X[61C[24;20H[?25h[?25l-------[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding app-name 1.0-SNAPSHOT[m[26X[26C[?25h[?25l
+[[1;34mINFO[m] [1m-----------------[42X[42C[24;39H[?25h[?25l---------------[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(d[?25h[?25l
+efault-resourc[66X[66C[24;15H[?25h[?25les)[m @ [36mapp-name[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[?25h[?25l
+[[1;3[74X[74C[24;7H[?25h[?25l4mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Ugly\app-n[?25h[?25l
+ame\src\main\resources[58X[58C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mm[47X[47C[24;34H[?25h[?25laven-compiler-plugin:3.8.0:compile[m [1m(defa[?25h[?25l
+ult-compile)[m @ [36mapp-name[0;1m ---[m[36X[36C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m] [1m----------[49X[49C[24;32H[?25h[?25l-------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[78X[78C[24;3H[?25h[?25l[1;34mINFO[m] [1;32mBUILD SUCCESS[m[?25h[?25l
+[[1;34mINFO[m] [1m----------------------------------[25X[25C[24;56H[?25h[?25l-------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[79X[79C[24;2H[?25h[?25l[1;34mINFO[m] Total time:  1.804 s[?25h[?25l
+[[1;34mINFO[m] Finished at: 2020-02-20T13:32:00-06:00[25X[25C[?25h[?25l
+[[1;34mINFO[m] [[61X[61C[24;20H[?25h[?25l1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ mcn[K[Kvn test
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.mycompany.app:app-name[0[?25h[?25l
+;1m >-----[70X[70C[24;11H[?25h[?25l----------------[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding app-name 1.0-SNAPSHOT[m[26X[26C[?25h[?25l
+[[1;34mINFO[m] [1m-----[54X[54C[24;27H[?25h[?25l---------------------------[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(d[?25h[?25l
+efault-resources)[m @ [36mapp-n[47X[47C[24;34H[?25h[?25lame[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[?25h[?25l
+[[1;34mINFO[m] skip non existing resourceDirectory C:\cygwin64\h[14X[14C[24;67H[?25h[?25lome\Ugly\app-n[?25h[?25l
+ame\src\main\resources[58X[58C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8[23X[23C[24;58H[?25h[?25l.0:compile[m [1m(defa[?25h[?25l
+ult-compile)[m @ [36mapp-name[0;1m ---[m[36X[36C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResources[m [[?25h[?25l
+1m(default-testResource[57X[57C[24;24H[?25h[?25ls)[m @ [36mapp-name[0;1m ---[m[?25h[?25l
+[[1;34mINFO[m] Using 'UTF-8' encoding to c[36X[36C[24;45H[?25h[?25lopy filtered resources.[?25h[?25l
+[[1;34mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Ugly\app-n[?25h[?25l
+ame\src\test\resources[58X[58C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile        [24;73H[?25h[?25l[m [1m([?25h[?25l
+default-testCompile)[m @ [36mapp-name[0;1m ---[m[28X[28C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m[59X[59C[24;22H[?25h[?25l--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(defaul[?25h[?25l
+t-test)[m @ [36mapp-name[0;1m ---[m[41X[41C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] -------------------------------------------------------        [?25h[?25l
+[[1;34mINFO[m]  T E S T S[53X[53C[?25h[?25l
+[[1;34mINFO[m] -------------------------------[32X[32C[24;49H[?25h[?25l------------------------[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Running com.mycompany.app.[1mAppTest[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0[?25h[?25l, Errors: 0, Skippe[?25h[?25l
+d: 0, Time elapsed: 0.053 s - in com.mycompany.app.[1mApp[22X[22C[24;59H[?25h[?25lTest[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] Results:[55X[55C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;[59X[59C[24;22H[?25h[?25l32mTests run: 1, Failures: 0, Errors: 0, [?25h[?25lSkipped: 0[m[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m---------------------------------[?25h[?25l--------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mI[71X[71C[24;10H[?25h[?25lNFO[m] [1;32mBUILD SUCCESS[m[?25h[?25l
+[[1;34mINFO[m] [1m--[57X[57C[24;24H[?25h[?25l---------------------------------------------------------[?25h[?25l
+-------[73X[73C[24;8H[?25h[?25l------[m[?25h[?25l
+[[1;34mI[71X[71C[24;10H[?25h[?25lNFO[m] Total time:  3.920 s[?25h[?25l
+[[1;34mINFO[m] Finished[55X[55C[24;27H[?25h[?25lat: 2020-02-20T13:32:13-06:00[?25h[?25l
+[[1;34mINFO[[66X[66C[24;15H[?25h[?25lm] [1m-------------------------------------------------[?25h[?25l----------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ mvn package
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.mycompany.app:app-name[0[?25h[?25l
+;1m >-[74X[74C[24;7H[?25h[?25l--------------------[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding app-name 1.0-SNAPSHOT[m[26X[26C[?25h[?25l
+[[1;34mINFO[m] [1m--------------------------[33X[33C[24;48H[?25h[?25l------[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(d[?25h[?25l
+efault-[73X[73C[24;8H[?25h[?25lresources)[m @ [36mapp-name[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[?25h[?25l
+[[1;34mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Ugly\app-n[?25h[?25l
+[80X[80C[?25h[?25lame\src\main\resources[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0[52X[52C[24;29H[?25h[?25l;32mmaven-compiler-plugin:3.8.0:compile[m [1m(defa[?25h[?25l
+ult-compile)[m @ [36mapp-name[0;1m ---[m[36X[36C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-p[31X[31C[24;50H[?25h[?25llugin:3.0.2:testResources[m [[?25h[?25l
+1m(default-testResources)[m @ [36mapp-name[0;1m ---[m[23X[23C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[?25h[?25l
+[[1;34mINFO[m] skip non existing resourceDirectory[28X[28C[24;54H[?25h[?25lC:\cygwin64\home\Ugly\app-n[?25h[?25l
+ame\src\test\resources[58X[58C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m([?25h[?25l
+default-test[68X[68C[24;13H[?25h[?25lCompile)[m @ [36mapp-name[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m---[56X[56C[24;26H[?25h[?25l[0;32mmaven-surefire-plugin:2.22.1:test[m [1m(defaul[?25h[?25l
+t-test)[m @ [36mapp-name[0;1m ---[m[41X[41C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] -------------------------------------------------------        [?25h[?25l
+[[1;34mINFO[m]  T E S T S[53X[53C[?25h[?25l
+[[1;34mINFO[m] -------------------------------[32X[32C[24;49H[?25h[?25l------------------------[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Running com.mycompany.app.[1mAppTest[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skippe[?25h[?25l
+d: 0, Time elapsed: 0.064 s - in com.mycompany.app.[1mAppTest[m[15X[15C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] Results:[55X[55C[?25h[?25l
+[[1;3[74X[74C[24;7H[?25h[?25l4mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1;32mTests run: 1, Failures[34X[34C[24;47H[?25h[?25l: 0, Errors: 0, Skipped: 0[m[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3[30X[30C[24;51H[?25h[?25l.0.2:jar[m [1m(default-jar)[?25h[?25l
+[m @ [36mapp-name[0;1m ---[m[49X[49C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Building jar: C:\cygwin64\home\Ugly\app-name\target\app-name-1.[?25h[?25l
+0-SNAPSHOT.jar[66X[66C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m[40X[40C[?25h[?25l
+[[1;34mINFO[m] [1m------[53X[53C[24;28H[?25h[?25l-----------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Total time:  3.790 s[?25h[?25l
+[[[77X[77C[24;4H[?25h[?25l1;34mINFO[m] Finished at: 2020-02-20T13:32:28-06:00[?25h[?25l
+[[1;34mINFO[m] [1m----[55X[55C[24;26H[?25h[?25l-------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ mvn integration-test
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1[76X[76C[24;5H[?25h[?25l;34mINFO[m[?25h[?25l] [1m---[?25h[?25l---------[?25h[?25l---------< [?25h[?25l[0;36mcom.[?25h[?25lmycom[?25h[?25lpany.app:a[?25h[?25lpp-name[0[?25h[?25l
+;1m >---------------------[m[51X[51C[?25h[?25l
+[[1;34mINFO[m][64X[64C[24;17H[?25h[?25l [1mBuilding app-name 1.0-SNAPSHOT[m[?25h[?25l
+[[1;34mINFO[m] [1m--------------------------------[[26X[26C[24;56H[?25h[?25ljar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmave[44X[44C[24;37H[?25h[?25ln-reso[?25h[?25lur[?25h[?25lce[?25hs[?25l-plugin:3.0.2:resources[m [1m(d[?25h[?25l
+efault-resources)[m @ [36mapp-name[0;1m ---[m[31X[31C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[?25h[?25l
+[[1;34mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Ugl       [24;74H[?25h[?25ly\app-n[?25h[?25l
+ame\src\main\resources[58X[58C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(    [24;77H[?25h[?25ldefa[?25h[?25l
+ult-compile)[m @ [36mapp-name[0;1m ---[m[36X[36C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResou[10X[10C[24;71H[?25h[?25lrces[m [[?25h[?25l
+1m(default-testResources)[m @ [36mapp-name[0;1m ---[m[23X[23C[?25h[?25l
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy[33X[33C[24;49H[?25h[?25lfiltered resources.[?25h[?25l
+[[1;34mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Ugly\app-n[?25h[?25l
+ame\src\test\resources[58X[58C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmav[45X[45C[24;36H[?25h[?25len-compiler-plugin:3.8.0:testCompile[m [1m([?25h[?25l
+default-testCompile)[m @ [36mapp-name[0;1m ---[m[28X[28C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-[33X[33C[24;48H[?25h[?25lplugin:2.22.1:test[m [1m(defaul[?25h[?25l
+t-test)[m @ [36mapp-name[0;1m ---[m[41X[41C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] -------------------------------------------------------        [?25h[?25l
+[[1;34mINFO[m]  T E S T S[53X[53C[?25h[?25l
+[[1;34mINFO[m] --------------------------[37X[37C[24;44H[?25h[?25l-----------------------------[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Running com.mycompany.app.[1mAppTest[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skippe[?25h[?25l
+d: 0, Time elapsed: 0.039 s - in com.mycompany.app.[1mAppT[21X[21C[24;60H[?25h[?25lest[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] Results:[55X[55C[?25h[?25l
+[[1;34mINFO[m][64X[64C[24;17H[?25h [?25l
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0,[30X[30C[24;51H[?25h[?25l Errors: 0, Skipped: 0[m[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmav[45X[45C[24;36H[?25h[?25len-jar-plugin:3.0.2:jar[m [1m(default-jar)[?25h[?25l
+[m @ [36mapp[67X[67C[24;14H[?25h[?25l-name[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m[40X[40C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[[77X[77C[24;4H[?25h[?25l1;34mINFO[m] Total time:  4.278 s[?25h[?25l
+[[1;34mINFO[m] Finished at: 2020-02-20T13:32:46-06:00[25X[25C[?25h[?25l
+[[1;34mINFO[m] [1m---------------------------------[26X[26C[24;55H[?25h[?25l--------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ mvn verify
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m---------------------<[37X[37C[24;45H[?25h[?25l[0;36mcom.mycompany.app:app-name[0[?25h[?25l
+;1m >--------------[61X[61C[24;20H[?25h[?25l-------[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding app-name 1.0-SNAPSHOT[m[26X[26C[?25h[?25l
+[[1;34mI[71X[71C[24;10H[?25h[?25lNFO[m] [1m--------------------------------[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(d[?25h[?25l
+efault-resources)[m @ [36[53X[53C[24;28H[?25h[?25lmapp-name[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[?25h[?25l
+[[1;34mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Ugly\     [24;76H[?25h[?25lapp-n[?25h[?25l
+ame\src\main\resources[58X[58C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(defa[?25h[?25l
+[80X[80C[?25h[?25lult-compile)[m @ [36mapp-name[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResources[m [[?25h[?25l
+1m(default-te[67X[67C[24;14H[?25h[?25lstResources)[m @ [36mapp-name[0;1m ---[m[?25h[?25l
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy[33X[33C[24;48H[?25h[?25l filtered resources.[?25h[?25l
+[[1;34mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Ugly\app-n[?25h[?25l
+ame\src\test\resources[58X[58C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven[43X[43C[24;38H[?25h[?25l-compiler-plugin:3.8.0:testCompile[m [1m([?25h[?25l
+default-testCompile)[m @ [36mapp-name[0;1m ---[m[28X[28C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m-[58X[58C[24;23H[?25h[?25l-- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(defaul[?25h[?25l
+t-test)[m @ [36mapp-name[0;1m ---[m[41X[41C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] -------------------------------------------------------        [?25h[?25l
+[[1;34mINFO[m]  T E S T S[53X[53C[?25h[?25l
+[[1;34mINFO[m] --------------------[43X[43C[24;38H[?25h[?25l-----------------------------------[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Running com.mycompany.app.[1mAppTest[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skippe[?25h[?25l
+d: 0, Time elapsed: 0.077 s - in com.mycompany.app.[1mAppTest[m[15X[15C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] Res[60X[60C[24;21H[?25h[?25lults:[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m[65X[65C[24;16H[?25h[?25l] [1;32mTests run: 1, Failures: 0, Errors:[?25h[?25l 0, Skipped: 0[m[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[67X[67C[24;14H[?25h[?25l[m] [1m--- [0;32mmaven-jar-plugin:3.0.[?25h[?25l2:jar[m [1m(default-jar)[?25h[?25l
+[m @ [36mapp-[66X[66C[24;15H[?25h[?25lname[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l[1m--------[?25h[?25l--------------[?25h[?25l---------[?25h-[?25l---------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;32m[56X[56C[24;25H[?25h[?25lBUILD SUCCESS[m[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------[18X[18C[24;63H[?25h[?25l------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Total time:  4.007 s[?25h[?25l
+[[1;34mINFO[68X[68C[24;13H[?25h[?25l[m] Finished at: 2020-02-20T13:33:00-06:00[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-----------[69X[69C[24;12H[?25h[?25l--[m[?25h[?25l
+[80X[80C[?25h]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ mvn install
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.mycompany.app:app-name[0[?25h[?25l
+;1m >----------[65X[65C[24;16H[?25h[?25l-----------[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding app-name 1.0-SNAPSHOT[m[26X[26C[?25h[?25l
+[[1;34mINFO[m] [1m----------------------[37X[37C[24;44H[?25h[?25l----------[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(d[?25h[?25l
+efault-resources)[m @ [3[54X[54C[24;27H[?25h[?25l6mapp-name[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[?25h[?25l
+[[1;34mINFO[m] skip non existing resour[39X[39C[24;42H[?25h[?25lceDirectory C:\cygwin64\home\Ugly\app-n[?25h[?25l
+ame\src\main\resour[61X[61C[24;20H[?25h[?25lces[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mma[46X[46C[24;35H[?25h[?25lven-compiler-plugin:3.8.0:compile[m [1m(defa[?25h[?25l
+ult-compile)[m @ [36mapp-name[0;1m ---[m[36X[36C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmav[45X[45C[24;36H[?25h[?25len-resources-plugin:3.0.2:testResources[m [[?25h[?25l
+1m(default-testResources)[m @ [36mapp-name[0;1m ---[m[23X[23C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Ugly\app-n[?25h[?25l
+ame\sr[74X[74C[24;7H[?25h[?25lc\test\resources[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:tes[17X[17C[24;64H[?25h[?25ltCompile[m [1m([?25h[?25l
+default-testCompile)[m @ [36mapp-name[0;1m ---[m[28X[28C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-su[40X[40C[24;41H[?25h[?25lrefire-plugin:2.22.1:test[m [1m(defaul[?25h[?25l
+t-test)[m @ [36mapp-name[0;1m ---[m[41X[41C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] -------------------------------------------------------        [?25h[?25l
+[[1;34mINFO[m]  T E S T S[53X[53C[?25h[?25l
+[[1;34mINFO[m] -------------------------------------------------------        [?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Running com.mycompany.app.[1mAppTest[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skippe[?25h[?25l
+d: 0, Time elapsed: 0.053 s - in com.mycompany.app.[1mAppTest[m[15X[15C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] Results:[55X[55C[?25h[?25l
+[[1;34mIN[70X[70C[24;11H[?25h[?25lFO[m] [?25h[?25l
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Er[27X[27C[24;54H[?25h[?25lrors: 0, Skipped: 0[m[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-ja[40X[40C[24;41H[?25h[?25lr-plugin:3.0.2:jar[m [1m(default-jar)[?25h[?25l
+[m @ [36mapp-name[0;1m ---[[50X[50C[24;31H[?25hm[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(defau[?25h[?25l
+lt-install)[m @ [36mapp-name[0;1m ---[m[37X[37C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Ins[?25h[?25ltalling C:\cygwin64\[?25h[?25lhome\Ugly\app-name\tar[?25h[?25lget\app-name-1.0-[?25hS[?25l
+NAPSHOT.jar t[67X[67C[24;14H[?25h[?25lo C:\Users\Ugl[?25h[?25ly\.m2\repo[?25h[?25lsitory\com\mycompa[?25h[?25lny\app\app-n[?25h[?25lame\1.0-SNAPS[?25h[?25l
+[80X[80C[?25h[?25lHOT\app-name-1.0-S[?25h[?25lNAPSHO[?25h[?25lT.jar[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Installing C:\cygwin64\home\Ugly\app-name\pom.xml to C:\Users\U[?25h[?25l
+gly\.m2\repository\com\mycompany\app\app-name[35X[35C[24;46H[?25h[?25l\1.0-SNAPSHOT\app-name-1.0-SNAPSHOT[?25h[?25l
+.pom[76X[76C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[42X[42C[24;39H[?25h[?25l[m[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Total time:  4.378 s[?25h[?25l
+[[1;34mINFO[m] Finished at: 2020-02-20T13:33:11-[30X[30C[24;51H[?25h[?25l06:00[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ mvn deplo[K[K[K[K[Kclean
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.mycompany.app:app-name[0[?25h[?25l
+;1m >------------------[57X[57C[24;24H[?25h[?25l---[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding app-name 1.0-SNAPSHOT[m[26X[26C[?25h[?25l
+[[1;34mINFO[m] [1m--------------------------------[ j[24X[24C[24;57H[?25h[?25lar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-c[?25h[?25l
+lean)[m @ [36ma[63X[63C[24;18H[?25h[?25lpp-name[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Deleting C:\cygwin64\home\Ugly\app-name\target[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m[40X[40C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[79X[79C[24;2H[?25h[?25l[1;34mINFO[m] Total time:  0.889 s[?25h[?25l
+[[1;34mINFO[m] Finished at: 2020-02-20T13:33:21-06:00[25X[25C[?25h[?25l
+[[1;34mINFO[m] [1m--------------------------------------------------[9X[9C[24;72H[?25h[?25l---------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ mvn site
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.mycompany.app:app-name[0[?25h[?25l
+;1[78X[78C[24;3H[?25h[?25lm >---------------------[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding app-name 1.0-SNAPSHOT[m[26X[26C[?25h[?25l
+[[1;34mINFO[m] [1m-----[54X[54C[24;27H[?25h[?25l---------------------------[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.7.1:site[m [1m(default-sit[?25h[?25l
+e)[m @ [36mapp-name[0;1m[53X[53C[24;29H[?25h[?25l---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] configuring report plugin org.apache.maven.plugins:maven[?25h[?25l-projec[?25h[?25l
+t-info-reports-plugin:3.0.0[53X[53C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] 15 reports detected for maven-project-info[?25h[?25l-reports-plugin:3.0.0[?25h[?25l
+: ci-management, dependencies, dependency-info, dependency-management, distribut[?25h[?25l
+ion-management, ind[61X[61C[24;20H[?25h[?25lex, issue-management, licenses, mailing-lists, modules, plugi[?25h[?25l
+n-manageme[70X[70C[24;11H[?25h[?25lnt, plugins, scm, summary, team[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1mRendering site with default locale English (en)[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Relativizing decoration links with respect to localized project[?25h[?25l
+ URL: ht[72X[72C[24;9H[?25h[?25ltp://www.example.com[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Rendering content with [1morg.apache.maven.skins:maven-default[?25h[?25l
+-skin:jar:1.2 skin[m.[58X[58C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Generating "[1mDependencies[m" report [1m --- [0;32mmaven-p[?25h[?25l
+roject-info-reports-plugin:3.0.0:dependencies[m[32X[32C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Generating "[1mDependency Information[[?25h[?25lm" report[1m --- [0;3[?25h[?25l
+2mmaven-project-info-reports-plugin:3.0.0:dependency-info[m[20X[20C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Generating "[1mAbout[m" re[?25h[?25lport        [1m --- [0;32mmaven-p[?25h[?25l
+roject-info-rep[65X[65C[24;16H[?25h[?25lorts-plugin:3.0.0:index[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Generating "[1mPlugin Management[m" report[1m --- [0;32mmav[?25h[?25l
+en-[77X[77C[24;4H[?25h[?25lproject-info-reports-plugin:3.0.0:plugin-management[m[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo[?25h[?25l
+/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.pom[28X[28C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 2.2/7.7 kB[?25h[?25lProgress (1): 5.0/7.7 kB[?25h[?25lProgress (1): 7.7 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/[?25h[?25l
+exec-m[74X[74C[24;7H[?25h[?25laven-plugin/1.2.1/exec-maven-plugin-1.2.1.pom (7.7 kB at 4.6 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo[?25h[?25l
+/moj[76X[76C[24;5H[?25h[?25lo-parent/28/mojo-parent-28.pom[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 5.0/26 kB[?25h[?25lProgress (1): 11/26 kBB[?25h[?25lProgress (1): 13/26 kB [?25h[?25lProgress (1): 19/26 kB[?25h[?25lProgress (1): 24/26 kB[?25h[?25lProgress (1): 26 kB   [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/[?25h[?25l
+mojo-parent/28/mojo-parent-28.pom (26 kB at 210 kB/s)[27X[27C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/ma[?25h[?25lven2/org/codehaus/code[?25h[?25l
+haus-parent/3/codehaus-parent-3.pom[45X[45C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 4.1 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/codeh[?25h[?25l
+aus-parent/3/codehaus-parent-3[50X[50C[24;31H[?25h[?25l.pom (4.1 kB at 50 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/[?25h[?25lmaven/[?25h[?25l
+wagon/wagon-webdav/1.0-beta-2/wagon-webdav[38X[38C[24;43H[?25h[?25l-1.0-beta-2.pom[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 1.5 kB[?25h [?25lDownloaded from central: https:/[?25h[?25l/repo.maven.apache.org/maven2/org/apache/maven/w[?25h[?25l
+agon/wa[73X[73C[24;8H[?25h[?25lgon-webdav/1.0-beta-2/wagon-webdav-1.0-beta-2.pom (1.5 kB at 15 kB/s)[?25h[?25l[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.ap[?25h[?25lache.org/maven2/org/apache/maven/[?25h[?25l
+wa[78X[78C[24;3H[?25h[?25lgon/wagon-providers/1.0-beta-2/wagon-pr[?25h[?25loviders-1.0-beta-2.pom[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 1.8 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/o[?25h[?25lrg/apache/maven/w[?25h[?25l
+agon/wagon-providers/1.0-beta-2/wagon-providers-1.0-beta-2.pom (1.8 kB at 17 kB/[?25h[?25l
+s)[78X[78C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.mave[?25h[?25ln.apache.org/maven2/org/apache/maven/[?25h[?25l
+wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom[37X[37C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 5.9 kB    [?25h [?25lDownloaded from central: https://repo.maven[?25h[?25l.apache.org/maven2/org/apache/maven/w[?25h[?25l
+agon/wag[72X[72C[24;9H[?25h[?25lon/1.0-beta-2/wagon-1.0-beta-2.pom (5.9 kB at 68 kB/s)[?25h[?25l[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-parent/4/maven-parent-4.pom[47X[47C[24;34H[?25h[?25l[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 2.2/10.0 kB[?25h[?25lProgress (1): 7.8/10.0 kB[?25h[?25lProgress (1): 10.0 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2[?25h[?25l/org/apache/maven/m[?25h[?25l
+aven-parent/4/maven-parent-4.pom (10.0 kB at 74 kB/s)[27X[27C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/apache[?25h[?25l
+/3/apache-[70X[70C[24;11H[?25h[?25l3.pom[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 2.2/3.4 kB[24;3H[?25h[?25logress (1): 3.4 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/[?25h[?25l
+3/apache-3.pom (3.4 kB at 33 kB/s)[46X[46C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/slide/sl[?25h[?25lide-webda[?25h[?25l
+vlib/2.1/slide-webdavlib-2.1.pom[48X[48C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 648 B[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/slide/slide-webdav[?25h[?25l
+lib/2.1/slide-webdavlib-2.1.pom (648 B at[39X[39C[24;43H[?25h[?25l6.7 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/ma[?25h[?25lven2/commons-httpclien[?25h[?25l
+t/commons-httpclient/2.0.2/commons-httpclient-2.0.2.pom[25X[25C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 5.0/7.1 kB[?25h[?25lProgress (1): 7.1 kB    [?25h [?25lDownloaded fro      [24;15H[?25h[?25lm central: https://repo.maven.apache.org/maven2/commons-httpclient[?25h[?25l
+/commons-httpclient/2.0.2/commons-httpclient-2.0.2.pom (7.1[21X[21C[24;61H[?25h[?25lkB at 41 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/de/zeigermann/xml[?25h[?25l
+/xml-im-exporter/1[62X[62C[24;19H[?25h[?25l.1/xml-im-exporter-1.1.pom[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 248 B[?25h [?25lDownloaded from central: https://repo.maven.apache[?25h[?25l.org/maven2/de/zeigermann/xml/[?25h[?25l
+xml-im-exporter/1.1/xml-im-exporter-1.1.pom (248 B at 2.2 kB/s)[17X[17C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+wagon/wagon-provider-api/1.0-beta-2/wagon-provider-ap[27X[27C[24;54H[?25h[?25li-1.0-beta-2.pom[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 680 B[?25h [?25lDownloaded from central: [?25h[?25lhttps://repo.maven.apache.org/maven2/org/apache/maven/w[?25h[?25l
+agon/wagon-provider-api/1.0-beta-2/wagon-prov[35X[35C[24;46H[?25h[?25lider-api-1.0-beta-2.pom (680 B at 6[?25h[?25l
+.2 kB/s)[72X[72C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apach[?25h[?25le/maven/[?25h[?25l
+wagon/wagon-webdav/1.0-beta-2/wagon-webdav-1.0-beta-2.jar[23X[23C[?25h[?25l
+Down[76X[76C[24;5H[?25h[?25lloading from central: https://repo.maven.apache.org/maven2/commons-logging/c[?25h[?25l
+ommons-logging/1.0.4/commons[52X[52C[24;29H[?25h[?25l-logging-1.0.4.jar[?25h[?25l
+Downloading from central: https://repo.maven.apache.org/maven2/de/zeigermann/xml[?25h[?25l
+/xml-im[73X[73C[24;8H[?25h[?25l-exporter/1.1/xml-im-e[?25h[?25lxporter-1.1.jar[?25h[?25l
+Downloading from central: https://repo.maven.a[34X[34C[24;47H[?25h[?25lpache.org/maven2/c[?25h[?25lommons-httpclien[?25h[?25l
+t/commons-httpclient/2.0.2/commons-httpclie[37X[37C[24;44H[?25h[?25lnt-2.0.2.jar[?25h[?25l
+[80X[80C[?25hD[?25lownloading f[?25h[?25lrom central: https://repo.maven.apache.org/maven2/slide/slide-webda[?25h[?25l
+vlib/2.1/slide-webdavlib-2.1.jar[48X[48C[?25h[?25l
+[80X[80C[?25h[?25lProgress (2): 2.2/24 kB | 2.2/38 kB[?25h[?25lProgress (3): 2.2/24 kB | 2.2/38 kB | 2.2/17 kB[?25h[?25lProgress (3): 2.2/24 kB | 2.2/38 kB | 5.0/17 kB[24;4H[?25h[?25lProgress (4): 2.2/24 kB | 2.2/38 kB | 5.0/17 kB | 2.2/225 kB[24;27H[?25h[?25l2.2/38 kB | 5.0/17 kB | 5.0/225 kB[?25h[?25lProgress (4): 2.2/24 kB | 2.2/38 kB | 5.0/17 kB | 7.8/225 kB[24;2H[?25h[?25lrogress (4): 2.2/24 kB | 5.0/38 kB | 5.0/17 kB | 7.8/225 kB[?25h[?25lProgress (4): 7.7/24 kB | 5.0/38 kB | 5.0/17 kB | 7.8/225 kB[?25h[?25lProgress (4): 10/24 kB | 5.0/38 kB | 5.0/17 kB | 7.8/225 kB [?25h[?25lProgress (4): 16/24 kB | 5.0/38 kB | 5.0/17 kB | 7.8/225 kB[24;43H[?25h[?25lProgress (4): 19/24 kB | 5.0/38 kB | 5.0/17 kB | 7.8/225 kB[?25h[?25lProgress (4): 19/24 kB | 7.7/38 kB | 5.0/17 kB | 7.8/225 kB[24;33H[?25h[?25lProgress (5): 19/24 kB | 7.7/38 kB | 5.0/17 kB | 11/225 kB [24;17H[?25h[?25lProgress (5): 19/24 kB | 7.7/38 kB | 5.0/17 kB | 11/225 kB | 2.2/173 kB[24;23H[?25h[?25lProgress (5): 19/24 kB | 7.7/38 kB | 7.7/17 kB | 11/225 kB | 2.2/173 kB[24;20H[?25h[?25lProgress (5): 19/24 kB | 7.7/38 kB | 7.7/17 kB | 11/225 kB | 5.0/173 kB[24;27H[?25h[?25l.7/38 kB | 7.7/17 kB | 13/225 kB | 5.0/173 kB[?25h[?25lProgress (5): 19/24 kB | 10/38 kB | 7.7/17 kB | 13/225 kB | 5.0/173 kB [24;21H[?25h[?25lProgress (5): 21/24 kB | 13/38 kB | 7.7/17 kB | 13/225 kB | 5.0/173 kB[?25h[?25lProgress (5): 24/24 kB | 13/38 kB | 7.7/17 kB | 13/225 kB | 5.0/173 [?25h[?25lProgress (5): 24/24 kB | 16/38 kB | 7.7/17 kB | 13/225 kB | 5.0/173 kB[24;58H[?25h[?25lProgress (5): 24/24 kB | 16/38 kB | 7.7/17 kB | 13/225 kB | 5.0/173 kB[24;44H[?25h[?25lProgress (5): 24/24 kB | 16/38 kB | 7.7/17 kB | 16/225 kB | 7.7/173 kB[24;22H[?25h[?25lProgress (5): 24/24 kB | 16/38 kB | 10/17 kB | 16/225 kB | 7.7/173 kB [24;50H[?25h[?25lProgress (5): 24/24 kB | 19/38 kB | 10/17 kB | 19/225 kB | 10/173 kB [24;46H[?25h[?25lProgress (5): 24 kB | 21/38 kB | 10/17 kB | 19/225 kB | 10/173 kB   [24;28H[?25h[?25l kB | 10/17 kB | 19/225 kB | 10/173 kB[?25h[?25lProgress (5): 24 kB | 21/38 kB | 10/17 kB | 21/225 kB | 13/173 kB[24;59H[?25h[?25lProgress (5): 24 kB | 21/38 kB | 13/17 kB | 21/225 kB | 13/173 kB[24;12H[?25h[?25lProgress (5): 24 kB | 21/38 kB | 13/17 kB | 24/225 kB | 16/173 kB[24;4H[?25h[?25lProgress (5): 24 kB | 24/38 kB | 13/17 kB | 27/225 kB | 16/173 kB[24;7H[?25h[?25lss (5): 24 kB | 24/38 kB | 13/17 kB | 27/225 kB | [?25h[?25lProgress (5): 24 kB | 24/38 kB | 16/17 kB | 27/225 kB | 19/173 kB[24;56H[?25h[?25lProgress (5): 24 kB | 27/38 kB | 16/17 kB | 30/225 kB | 21/173 kB[?25h[?25lProgress (5): 24 kB | 27/38 kB | 16/17 kB | 32/225 kB | 21[?25h[?25lProgress (5): 24 kB | 27/38 kB | 16/17 kB | 32/225 kB | 21/173 kB[24;11H[?25h[?25lProgress (5): 24 kB | 27/38 kB | 17 kB |  | 32/225 kB | 24/173 kB[24;42H[?25h[?25lProgress (5): 24 kB | 27/38 kB | 17 kB | 32/225 kB | 27/173 kB   [24;26H[?25h[?25lProgress (5): 24 kB | 30/38 kB | 17 kB | 40/225 kB | 27/173 kB[24;44H[?25h[?25lProgress (5): 24 kB | 30/38 kB | 17 kB | 45/225 kB | 30/173 kB[?25h[?25lProgress (5): 24 kB | 32/38 kB | 17 kB | 49/225 kB | 30/173 kB[24;35H[?25h[?25lProgress (5): 24 kB | 35/38 kB | 17 kB | 53/225 kB | 32/173 kB[24;52H[?25h[?25lProgress (5): 24 kB | 35/38 kB | 17 kB | 57/225 kB | 36/173 kB[24;15H[?25h[?25lProgress (5): 24 kB | 38/38 kB | 17 kB | 61/225 kB | 36/173 kB[24;20H[?25h[?25lProgress (5): 24 kB | 38/38 kB | 17 kB | 69/225 kB | 40/173 kB[24;57H[?25h[?25lProgress (5): 24 kB | 38 kB | 17 kB | 73/225 kB | 40/173 kB   [24;9H[?25h[?25lProgress (5): 24 kB | 38 kB | 17 kB | 77/225 kB | 45/173 kB[24;41H[?25h[?25lProgress (5): 24 kB | 38 kB | 17 kB | 81/225 kB | 49/173 kB[24;53H[?25h[?25lProgress (5): 24 kB | 38 kB | 17 kB | 86/225 kB | 53/173 kB[24;17H[?25h[?25lProgress (5): 24 kB | 38 kB | 17 kB | 90/225 kB | 57/173 kB[24;37H[?25h[?25lDownloaded from central: https://repo.maven.apache.org/maven2/co[?25h[?25lmmons-logging/co[?25h[?25l
+mmons-logging/1.0.4/commons-logging-1.0.4.jar (38 kB at 57 kB[19X[19C[24;62H[?25h[?25l/s)[?25h[?25l
+Downloading from central: https://rep[43X[43C[24;38H[?25h[?25lo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar[11X[11C[?25h[?25l
+Progress (4): 24 kB | 17 kB | 94[48X[48C[24;33H[?25h[?25lProgress (4): 24 kB | 17 kB | 98/225 kB | 69/173 kB[24;27H[?25h[?25lProgress (4): 24 kB | 17 kB | 106/225 kB | 73/173 kB[24;5H[?25h[?25lProgress (4): 24 kB | 17 kB | 110/225 kB | 77/173 kB[24;11H[?25h[?25lProgress (5): 24 kB | 17 kB | 118/225 kB | 77/173 kB | 2.2/46 kB[24;39H[?25h[?25lProgress (5): 24 kB | 17 kB | 118/225 kB | 81/173 kB | 2.2/46 kB[?25h[?25lProgress (5): 24 kB | 17[?25h[?25lProgress (5): 24 kB | 17 kB | 122/225 kB | 81/173 kB | 2.2/46 kB[24;7H[?25h[?25lDownloaded from central: https://repo.maven.a[19X[19C[24;46H[?25h[?25lpache.org/maven2/org/apache/maven/w[?25h[?25l
+agon/wagon-webdav/1.0-beta-2/wagon-webdav-1.0-beta-2.jar (17 kB at 22 kB/s)     [?25h[?25l
+Progress (4): 24 kB | 126/225 kB | 81/173 kB | 5.0/46 k[25X[25C[24;56H[?25h[?25l                                               5.0/46 kB[24;47H[?25h[?25lDownloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plex[?25h[?25l
+us/plexus-utils/1.0.4/plexus-utils-1.[43X[43C[24;38H[?25h[?25l0.4.jar[?25h[?25l
+Downloaded from central: https://repo.maven.apache.[29X[29C[24;52H[?25h[?25lorg/maven2/de/zeigermann/xml/[?25h[?25l
+xml-im-exporter/1.1/xml-im-exporter-1.1.jar (24 kB at 30 kB/s)[18X[18C[?25h[?25l
+Progress (3): 135/225 kB | 85/173 kB | 7.7/46 kB[32X[32C[24;22H[?25h[?25lProgress (4): 139/225 kB | 90/173 kB | 7.7/46 kB | 2.2/164 kB[24;14H[?25h[?25lProgress (4): 143/225 kB | 90/173 kB | 10/46 kB | 5.0/164 kB [24;6H[?25h[?25lProgress (4): 147/225 kB | 94/173 kB | 10/46 kB | 7.7/164 kB[24;37H[?25h[?25lProgress (4): 151/225 kB | 94/173 kB | 13/46 kB | 7.7/164 kB[24;28H[?25h[?25lProgress (4): 151/225 kB | 98/173 kB | 13/46 kB | 13/164 kB [24;4H[?25h[?25lProgress (4): 159/225 kB | 98/173 kB | 16/46 kB | 13/164 kB[24;46H[?25h[?25lProgress (4): 159/225 kB | 102/173 kB | 16/46 kB | 16/164 kB[24;42H[?25h[?25lProgress (4): 163/225 kB | 102/173 kB | 19/46 kB | 19/164 kB[24;50H[?25h[?25lProgress (4): 167/225 kB | 102/173 kB | 19/46 kB | 19/164 kB[24;43H[?25h[?25l/46[?25h[?25lProgress (4): 167/225 kB | 106/173 kB | 19/46 kB | 21/164 kB[24;45H[?25h[?25lProgress (4): 172/225 kB | 106/173 kB | 19/46 kB | 24/164 kB[24;37H[?25h[?25lProgress (4): 176/225 kB | 106/173 kB | 21/46 kB | 27/164 kB[24;29H[?25h[?25lProgress (4): 180/225 kB | 110/173 kB | 21/46 kB | 30/164 kB[24;12H[?25h[?25lProgress (4): 184/225 kB | 110/173 kB | 24/46 kB | 32/164 kB[24;2H[?25h[?25lProgress (4): 188/225 kB | 114/173 kB | 24/46 kB | 36/164 kB[24;47H[?25h[?25lProgress (4): 192/225 kB | 114/173 kB | 27/46 kB | 36/164 kB[24;41H[?25h[?25lProgress (4): 196/225 kB | 118/173 kB | 27/46 kB | 45/164 kB[24;37H[?25h[?25lProgress (4): 200/225 kB | 118/173 kB | 30/46 kB | 45/164 kB[24;11H[?25h[?25lProgress (4): 200/225 kB | 122/173 kB | 30/46 kB | 53/164 kB[24;4H[?25h[?25lProgress (4): 208/225 kB | 122/173 kB | 32/46 kB | 53/164 kB[24;59H[?25h[?25lProgress (4): 208/225 kB | 126/173 kB | 32/46 kB | 57/164 kB[24;51H[?25h[?25lProgress (4): 217/225 kB | 126/173 kB | 36/46 kB | 61/164 kB[24;54H[?25h[?25lProgress (4): 217/225 kB | 131/173 kB | 36/46 kB | 69/164 kB[24;59H[?25h[?25lProgress (4): 225/225 kB | 131/173 kB | 40/46 kB | 69/164 kB[24;21H[?25h[?25lProgress (4): 225 kB | 135/173 kB | 40/46 kB | 77/164 kB    [24;11H[?25h[?25lProgress (4): 225 kB | 139/173 kB | 45/46 kB | 81/164 kB[24;40H[?25h[?25lProgress (4): 225 kB | 143/173 kB | 46 kB | 90/164 kB   [24;42H[?25h[?25lProgress (4): 225 kB | 147/173 kB | 46 kB | 98/164 kB[?25h[?25lProgress (4): 225 kB | 151/173 kB | 46 kB | 106/164 kB[24;13H[?25h[?25lProgress (4): 225 kB | 159/173 kB | 46 kB | 110/164 kB[24;11H[?25h[?25lProgress (4): 225 kB | 163/173 kB | 46 kB | 114/164 kB[24;19H[?25h[?25lProgress (4): 225 kB | 167/173 kB | 46 kB | 114/164 kB[24;20H[?25h[?25l[54X[54C[?25h[?25lDownloaded from central: https://repo.maven.apache.org/maven2/commons-httpclient[?25h[?25l
+/commons-httpclient/2.0.2/commons-httpclient-2.0.2.jar (225 kB[18X[18C[24;64H[?25h[?25lat 200 kB/s)[?25h[?25l
+Progress (3): 173 kB | 46 kB | 126/164 kB[39X[39C[24;13H[?25h[?25lProgress (3): 173 kB | 46 kB | 139/164 kB[24;17H[?25h[?25lProgress (3): 173 kB | 46 kB | 151/164 kB[24;9H[?25h[?25lProgress (3): 173 kB | 46 kB | 155/164 kB[24;20H[?25h[?25lProgress (3): 173 kB | 46 kB | 163/164 kB[24;5H[?25h[?25l          3): 173 kB | 46 kB | 164 kB    [24;11H[?25h[?25lDownloaded from central: https://repo.maven.apache.org/maven2/slide/slide-webdav[?25h[?25l
+lib/2.1/slide-webdavlib-2.1.jar (173 kB at 145[34X[34C[24;47H[?25h[?25l kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexu[?25h[?25l
+s/plexus-utils/1.0.4/plexus-utils-1.0.4.jar (164 kB at 130 kB/s)[16X[16C[?25h[?25l
+[80X[80C[?25hD[?25lownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/w[?25h[?25l
+agon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar (46 k      [24;75H[?25h[?25lB at 2[?25h[?25l
+9 kB/s)[73X[73C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Generating "[1mPlugins[m" report      [1m --- [0;32mmaven-p[?25h[?25l
+roject-info-reports-plugin:3.0.0:p[46X[46C[24;35H[?25h[?25llugins[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Generating "[1mSummary[m" report      [1m --- [0;32mmaven-p[?25h[?25l
+roject-info-reports-plugin:3.0.0:summary[m[37X[37C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[67X[67C[24;14H[?25h[?25l[m] [1;32mBUILD SUCCESS[m[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Total time:  14.091 s[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Finished at: 2020-02-20T13:33:41-06:00[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------      [24;75H[?25h[?25l------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ mvn package
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.mycompany.app:app-name[0[?25h[?25l
+;1m >---[72X[72C[24;9H[?25h[?25l------------------[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding app-name 1.0-SNAPSHOT[m[26X[26C[?25h[?25l
+[[1;34mINFO[m] [1[60X[60C[24;21H[?25h[?25lm--------------------------------[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(d[?25h[?25l
+efault-resources)[62X[62C[24;19H[?25h[?25l[m @ [36mapp-name[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[?25h[?25l
+[[1;34mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Ugly\app-n[?25h[?25l
+ame\src\main\resource[59X[59C[24;22H[?25hs[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(defa[?25h[?25l
+ult-compile)[m @ [36mapp-na[51X[51C[24;30H[?25h[?25lme[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Changes detected - recompiling the module![?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Compiling 1 source file to C:\cygwin64\home\Ugly\app-name\targe[?25h[?25l
+t\[78X[78C[24;3H[?25h[?25lclasses[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResources[m [[?25h[?25l
+1m(default-testResources)[m @ [36mapp-name[0;1m ---[m[23X[23C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resourc[?25h[?25les.[?25h[?25l
+[[1;34mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Ugly\app-n[?25h[?25l
+ame\src\test\re[65X[65C[24;16H[?25h[?25lsource[?25hs[?25l
+[80X[80C[?25h[?25l[[?25h[?25l[1;[?25h3[?25l4mI[?25h[?25lNFO[?25h[?25l[[?25hm[?25l] [?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m--- [0;32mmaven-comp[?25h[?25liler-plugin:3.8.0:testCompile[m [1m([?25h[?25l
+[80X[80C[?25h[?25ldefault-testCompile)[m @ [36mapp-name[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Changes detected - recompiling the module![?25h[?25l
+[[1;34mINFO[m] Compiling 1 source file to C:\cygwin64[25X[25C[24;56H[?25h[?25l\home\Ugly\app-name\targe[?25h[?25l
+t\test-classes[66X[66C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(defaul[?25h[?25l
+t-test)[m @ [36mapp-name[0;1m ---[m[41X[41C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] -------------------------------------------------------        [?25h[?25l
+[[1;34mINFO[m]  T E S T S[53X[53C[?25h[?25l
+[[1;34mINFO[m] --------------------------------------------[19X[19C[24;62H[?25h[?25l-----------[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Running com.mycompany.app.[1mAppTest[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skippe[?25h[?25l
+d: 0, Time elapsed: 0.046 s - in[48X[48C[24;34H[?25h[?25lcom.mycompany.app.[1mAppTest[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] Results:[55X[55C[?25h[?25l
+[[1;34mINFO[m[65X[65C[24;16H[?25h[?25l] [?25h[?25l
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0,[30X[30C[24;51H[?25h[?25l Errors: 0, Skipped: 0[m[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plug[34X[34C[24;47H[?25h[?25lin:3.0.2:jar[m [1m(default-jar)[?25h[?25l
+[m @ [36mapp-name[0;1m -[54X[54C[24;27H[?25h[?25l--[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25lBuilding [?25h[?25ljar: C:\cygwi[?25h[?25ln64\ho[?25h[?25lme\Ugly\app-[?25h[?25lname\[?25h[?25ltarget\a[?25h[?25lpp-name-[?25h[?25l1.[?25h[?25l
+0-[78X[78C[24;3H[?25h[?25lSNA[?25h[?25lPSH[?25h[?25lOT.jar[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m][?25h[?25l [1m[?25h[?25l--------[?25h[?25l-----[?25h[?25l------[?25h[?25l------------[?25h[?25l--[?25h[?25l-------[?25h[?25l------------[?25h[?25l-------[?25h[?25l
+-[79X[79C[24;2H[?25h[?25l------------[m[?25h[?25l
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m[40X[40C[?25h[?25l
+[[1;34[73X[73C[24;8H[?25h[?25lmINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[24;17H[?25h[?25l[?25h[?25l
+[[1;34mINFO[m] Total time:  5.389 s[43X[43C[?25h[?25l
+[[1;34mINF[69X[69C[24;12H[?25h[?25lO[m] Finished at: 2020-02-20T13:34:46-06:00[?25h[?25l
+[[1;34mINFO[m] [1m---------------------------[32X[32C[24;49H[?25h[?25l--------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ java -jar target/app-name-1.0-SNAPSHOT.jar 
+bash: java: command not found
+]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ java -jar target/app-name-1.0-SNAPSHOT.jar [C[Cmvn package[K[3Psitepackage[C[Cjava -jar target/app-name-1.0-SNAPSHOT.jar [C[C[Kmvn compile
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.mycompany.app:app-name[0[?25h[?25l
+;1m >---------[66X[66C[24;15H[?25h[?25l------------[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding app-name 1.0-SNAPSHOT[m[26X[26C[?25h[?25l
+[[1;34mINFO[m] [1m-------------------------------[28X[28C[24;53H[?25h[?25l-[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(d[?25h[?25l
+efault-re[71X[71C[24;10H[?25h[?25lsources)[m @ [36mapp-name[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[?25h[?25l
+[[1;34mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Ugly\app-n[?25h[?25l
+ame\src\main\resources[58X[58C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(defa[?25h[?25l
+ult-compile)[m @ [36mapp-name[49X[49C[24;32H[?25h[?25l[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m] [1m----------------------------------------[19X[19C[24;62H[?25h[?25l-------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m[40X[40C[?25h[?25l
+[[1;34mINFO[m] [1m---------------------------------------------[14X[14C[24;67H[?25h[?25l--------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;[?25h[?25l34m[?25hI[?25lNFO[m] Tota[?25h[?25ll ti[?25hm[?25le:  1.563 s[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Finished at: 2020-02-20T13:35:44[?25h[?25l-06:00[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ mvn exec:java
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugi[28X[28C[24;53H[?25h[?25ln-2.8.2.jar[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 2.2/34 kB[?25h[?25lProgress (1): 5.0/34 kB[24;8H[?25h[?25lProgress (1): 10/34 kB [?25h[?25lProgress (1): 13/34 kB[?25h[?25lProgress (1): 16/34 kB[24;2H[?25h[?25lProgress (1): 21/34 kB[24;18H[?25h[?25lProgress (1): 24/34 kB[24;2H[?25h[?25lProgress (1): 27/34 kB[24;14H[?25h[?25lProgress (1): 32/34 kB[?25h[?25lProgress (1): 34 kB   [?25h [?25lDownloaded from central: https://repo.maven.apache.org/[?25h[?25lmaven2/org/apache/maven/p[?25h[?25l
+lugins/maven-deploy-plugin/2.8.2/maven-deploy-pl[32X[32C[24;49H[?25h[?25lugin-2.8.2.jar (34 kB at 45 kB/s[?25h[?25l
+)[79X[79C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo[?25h[?25l
+/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.jar[28X[28C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 5.0/38 kB[?25h[?25lProgress (1): 7.8/38 kB[24;12H[?25h[?25lProgress (1): 16/38 kB [?25h[?25lProgress (1): 27/38 kB[24;20H[?25h[?25lProgress (1): 38/38 kB[24;5H[?25h[?25lress (1): 38 kB   [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/[?25h[?25l
+exec-maven-plugi[64X[64C[24;17H[?25h[?25ln/1.2.1/exec-maven-plugin-1.2.1.jar (38 kB at 164 kB/s)[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.mycompany.app:app-name[0[?25h[?25l
+;1m >---------------------[m[51X[51C[?25h[?25l
+[[1;34mI[71X[71C[24;10H[?25h[?25lNFO[m] [1mBuilding app-name 1.0-SNAPSHOT[m[?25h[?25l
+[[1;34mINFO[m] [1m--------------------------------[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m>>> [0;32mexec-maven-plugin:1.2.[26X[26C[24;55H[?25h[?25l1:java[m [1m(default-cli[?25h[?25l
+)[0;1m > [0;1mvalidate[m @ [36mapp-name[0;1m >>>[m[24X[24C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m<<< [0;32mexec-maven[38X[38C[24;43H[?25h[?25l-plugin:1.2.1:java[m [1m(default-cli[?25h[?25l
+)[0;1m < [0;1mvalidate[m @ [36mapp-name[0;1m <<<[m[24X[24C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.2.1:java[m [1m(default-cli[?25h[?25l
+)[m @ [36mapp-name[0;1m -[52X[52C[24;29H[?25h[?25l--[m[?25h[?25l
+[80X[80C[?25h[?25lDownloading from central: https://repo.maven.apache.org/maven2/org/apac[?25h[?25lhe/maven/[?25h[?25l
+maven-toolchain/1.0/maven-toolchain-1.0.pom[37X[37C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 3.4 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-to[73X[73C[24;8H[?25h[?25lolchain/1.0/maven-toolchain-1.0.pom (3.4 kB at 30 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven/2.0.6/maven-2.0.6.pom[53X[53C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 9.0 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven/2.0.6/maven-2.0.6.pom ([52X[52C[24;29H[?25h[?25l9.0 kB at 115 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-parent/5/maven-parent-5.pom[47X[47C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 11/15 kB [?25h[?25lProgress (1): 15 kB   [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-parent/5/maven-parent-5.pom (15 kB at 186 k[32X[32C[24;49H[?25h[?25lB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-core/2.0.6/maven-core-2.0.6.pom[43X[43C[?25h[?25l
+[80X[80C[?25h[?25lProgres[?25h[?25lProgress (1): 5.0/6.7 kB[24;4H[?25h[?25lgress (1): [?25h[?25l6.7 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-core/2.0.6/m[63X[63C[24;18H[?25h[?25laven-core-2.0.6.pom (6.7 kB at 34 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-settings/2.0.6/maven-settings-2.0.6.pom[35X[35C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 2.0 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-settings/2.0.6/maven-settings-2.0.6.[39X[39C[24;42H[?25h[?25lpom (2.0 kB at 29 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-model/2.0.6/maven-model-2.0.6.pom[41X[41C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 3.0 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-model/2.0.6/maven-model-2.0.6.pom (3.0 kB at[31X[31C[24;50H[?25h[?25l 38 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.2[?25h[?25l
+/junit-3.8.2.pom[64X[64C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 747 B[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.2/[?25h[?25l
+junit-3.8.2.pom (747 B at 9.6 kB/s)[45X[45C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-plugin-parameter-documenter/2.0.6/maven-plugin-para[23X[23C[24;58H[?25h[?25lmeter-documenter-2.0.6.[?25h[?25l
+pom[77X[77C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 1.9 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-plugin-parameter-documenter/2.0.6/mave[37X[37C[24;44H[?25h[?25ln-plugin-parameter-documenter-2.0.6.p[?25h[?25l
+om (1.9 kB at 24 kB/s)[58X[58C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom[15X[15C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 1.8 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/ma[?25h[?25lven2/org/apache/maven/r[?25h[?25l
+eporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom (1.8 kB at 20 k[?25h[?25l
+B/s)[76X[76C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+reporting/maven-reporting/2.0.6/maven-reporting-2.[30X[30C[24;51H[?25h[?25l0.6.pom[?25h[?25l
+[80X[80C[?25h[?25lPr[?25h[?25logress (1): 1.4 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/m[?25h[?25laven/r[?25h[?25l
+eporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom (1.4 kB at 20 kB/s)    [?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom[17X[17C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 424 B[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/d[?25h[?25l
+oxia/doxi[71X[71C[24;10H[?25h[?25la-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom (424 B at 6.0 kB/[?25h[?25l
+s)[78X[78C[?25h[?25l
+[80X[80C[?25h[?25lDo[?25h[?25lwnloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom[35X[35C[?25h[?25l
+[80X[80C[?25h[?25lPr[?25h[?25lProgress (1): 3.9 kB    [?25h [?25lDownloade[11X[11C[24;10H[?25h[?25ld from central: https://repo.maven.apache.org/maven2/org/apache/maven/d[?25h[?25l
+oxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom (3.9 kB at 46 kB/s)[16X[16C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-profile/2.0.6/maven-profile-2.0.6.[40X[40C[24;41H[?25h[?25lpom[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 2.0 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-profile/2.0.6/maven-profile-2.0.6.pom (2.0 k[31X[31C[24;50H[?25h[?25lB at 24 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-artifact/2.0.6/maven-artifact-2.0.6.pom[35X[35C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 1.6 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-artifact/2.0.6/maven-artifact-2.[43X[43C[24;38H[?25h[?25l0.6.pom (1.6 kB at 22 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom[13X[13C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 1.9 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-repository-metadata/2.[53X[53C[24;28H[?25h[?25l0.6/maven-repository-metadata-2.0.6.pom (1.9 kB at 23[?25h[?25l
+ kB/s)[74X[74C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom[17X[17C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 1.7 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-error-diagnostics/2.0.6/ma[49X[49C[24;32H[?25h[?25lven-error-diagnostics-2.0.6.pom (1.7 kB at 25 kB/[?25h[?25l
+s)[78X[78C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-project/2.0.6/maven-project-2.0.6.pom[37X[37C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 2.6 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-project/2.0.6/maven-project-2.0.6[42X[42C[24;39H[?25h[?25l.pom (2.6 kB at 38 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache[?25h[?25l/maven/[?25h[?25l
+maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.po[20X[20C[24;61H[?25hm[?25l
+[80X[80C[?25h[?25lPr[?25h[?25lProgress (1): 2.6 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-artifact-manager/2.0.6/maven-artifact-[37X[37C[24;44H[?25h[?25lmanager-2.0.6.pom (2.6 kB at 27 kB/s)[?25h[?25l
+[80X[80C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom[21X[21C[24;60H[?25h[?25l[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 1.9 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-plu[72X[72C[24;9H[?25h[?25lgin-registry/2.0.6/maven-plugin-registry-2.0.6.pom (1.9 kB at 25 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/commons-cli/c[?25h[?25lommo[?25h[?25l
+ns-cli/1.0/commons-cli-1.0.pom[50X[50C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 2.1 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/c[?25h[?25lommons-cli/common[?25h[?25l
+s-cli/1.0/commons-cli-1.0.pom (2.1 kB at 12 kB/s)[31X[31C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-plugin-api/2.0/maven-plugin-api-2.0.pom[35X[35C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 601 B[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-plugin-api/2.0/ma[58X[58C[24;23H[?25h[?25lven-plugin-api-2.0.pom ([?25h[?25l601 B at 8.6 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven/2.0/maven-2.0.pom[57X[57C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 8.8 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven/2.0/maven-2.0.pom (8.8 kB at 110 kB/s)[37X[37C[?25h[?25l
+[80X[80C[?25h[?25lDownloading from central: https://r[?25h[?25lepo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom[17X[17C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 2.0 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-plugin-descriptor/2.0.6/maven-plugin-d[37X[37C[24;44H[?25h[?25lescriptor-2.0.6.pom (2.0 kB at 26 kB/[?25h[?25l
+s)[78X[78C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plex[?25h[?25l
+us/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4    [24;77H[?25h[?25l.pom[?25h[?25l
+[80X[80C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 7.1 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexu[?25h[?25l
+s/plexus-interactivity-api/[53X[53C[24;28H[?25h[?25l1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom [?25h[?25l
+(7.1 kB at 100 kB/s)[60X[60C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-monitor/2.0.6/maven-monitor-2.0.6.pom[37X[37C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 1.3 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-monitor/2.0.6/maven-monitor-2.0.6[42X[42C[24;39H[?25h[?25l.pom (1.3 kB at 18 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom[31X[31C[?25h[?25l
+[80X[80C[?25hP[?25lrogress (1): 1.5 kB[?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-plugin-api/2.0.6/maven-plugin-api-2.0.6.po[33X[33C[24;48H[?25h[?25lm (1.5 kB at 21 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/common[?25h[?25l
+s/commons-exec/1.1/commons-exec-1.1.pom[41X[41C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 7.0/11 kB[24;17H[?25h[?25lProgress (1): 11 kB    [?25h [?25lDownloaded from    [24;17H[?25h[?25lcentral: https://repo.maven.apache.org/mave[?25h[?25ln2/org/apache/commons[?25h[?25l
+/commons-exec/1.1/commons-e[53X[53C[24;28H[?25h[?25lxec-1.1.pom (11 kB at 91 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-toolchain/1.0/maven-[54X[54C[24;27H[?25h[?25ltoolchain-1.0.jar[?25h[?25l
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-plugin-registry/2.0.6/mave[48X[48C[24;33H[?25h[?25ln-plugin-registry-2.0.6.j[?25h[?25lar[?25h[?25l
+Downloading from central: https://repo.maven.apache.org/[24X[24C[24;57H[?25h[?25lmaven2/org/apache/maven/[?25h[?25l
+maven-profile/2.0.6/maven-profile-2.0.6.jar[37X[37C[?25h[?25l
+Downloading from central: https://repo.mave[37X[37C[24;44H[?25h[?25ln.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-settings/2.0.6/maven-settings-2.0.6.jar[35X[35C[?25h[?25l
+Downloadi[71X[71C[24;10H[?25h[?25lng from central: https://repo.maven.apache.org/maven[?25h[?25l2/org/apache/maven/[?25h[?25l
+maven-project/2.0.6/maven-[54X[54C[24;27H[?25h[?25lproject-2.0.6.jar[?25h[?25l
+[80X[80C[?25h[?25lProgress (2): 2.2/33 kB[?25h[?25lProgress (3): 2.2/33 kB | 2.2/35 kB | 2.2/29 kB[24;8H[?25h[?25lProgress (4): 2.2/33 kB | 5.0/35 kB | 2.2/29 kB[24;33H[?25h[?25lProgress (4): 2.2/33 kB | 5.0/35 kB | 2.2/29 kB | 2.2/49 kB[24;12H[?25h[?25lProgress (4): 2.2/33 kB | 5.0/35 kB | 2.2/29 kB | 5.0/49 kB[24;50H[?25h[?25lProgress (4): 5.0/33 kB | 5.0/35 kB | 2.2/29 kB | 7.7/49 kB[?25h[?25lProgress (4): 5.0/33 kB | 5.0/35 kB | 2.2/29 kB | 10/49 kB [?25h[?25lProgress (5): 5.0/33 kB [?25h[?25lProgress (5): 5.0/33 kB | 7.7/35 kB | 2.2/29 kB | 10/49 kB | 2.2/116 kB[24;55H[?25h[?25lProgress (5): 5.0/33 kB | 7.7/35 kB | 5.0/29 kB | 10/49 kB | 2.2/116 kB[?25h[?25lProgress (5): 5.0/33 kB | 7.7/35 kB | 7.7/29 kB | 10/49 kB | 2.2/116 kB[24;11H[?25h[?25l5): 5.0/33 kB | 10/35 kB | 7.7[?25h[?25lProgress (5): 5.0/33 kB | 10/35 kB | 7.7/29 kB | 10/49 kB | 2.2/116 kB [24;56H[?25h[?25lProgress (5): 7.7/33 kB | 10/35 kB | 7.7/29 kB | 13/49 kB | 5.0/116 kB[24;44H[?25h[?25lProgress (5): 7.7/33 kB | 10/35 kB | 7.7/29 kB | 13/49 kB | 5.0/116 kB[24;50H[?25h[?25lProgress (5): 7.7/33 kB | 10/35 kB | 7.7/29 kB | 16/49 kB | 5.0/116 kB[24;22H[?25h[?25lProgress (5): 7.7/33 kB | 13/35 kB | 7.7/29 kB | 16/49 kB | 7.7/116 kB[24;45H[?25h[?25lProgress (5): 7.7/33 kB | 13/35 kB | 10/29 kB | 16/49 kB | 7.7/116 kB [24;26H[?25h[?25lProgress (5): 7.7/33 kB | 16/35 kB | 10/29 kB | 16/49 kB | 10/116 kB [24;20H[?25h[?25lProgress (5): 10/33 kB | 16/35 kB | 10/29 kB | 19/49 kB | 10/116 kB [24;29H[?25h[?25l35 kB | 10/29 kB | 21/49 kB | 10/116 kB[?25h[?25lProgress (5): 10/33 kB | 16/35 kB | 10/29 kB | 21/49 kB | 1[?25h[?25lProgress (5): 10/33 kB | 19/35 kB | 10/29 kB | 21/49 kB | 13/116 kB[24;21H[?25h[?25lProgress (5): 10/33 kB | 21/35 kB | 13/29 kB | 21/49 kB | 13/116 kB[24;2H[?25h[?25lProgress (5): 10/33 kB | 21/35 kB | 13/29 kB | 21/49 kB | 16/116 kB[24;26H[?25h[?25l21/35 kB | 13/29 kB | 24/49 kB | 16/116 kB[?25h[?25lProgress (5): 13/33 kB | 21/35 kB | 13/29 kB | 24/49 kB | 16/116 kB[24;32H[?25h[?25lProgress (5): 13/33 kB | 21/35 kB | 13/29 kB | 27/49 kB | 19/116 kB[24;8H[?25h[?25lProgress (5): 13/33 kB | 24/35 kB | 16/29 kB | 27/49 kB | 19/116 kB[24;27H[?25h[?25lProgress (5): 13/33 kB | 27/35 kB | 16/29 kB | 30/49 kB | 21/116 kB[24;50H[?25h[?25lProgress (5): 16/33 kB | 27/35 kB | 16/29 kB | 32/49 kB | 21/116 kB[24;15H[?25h[?25lProgress (5): 16/33 kB | 30/35 kB | 16/29 kB | 32/49 kB | 24/116 kB[24;7H[?25h[?25lss (5): 16/33 kB | 30/35 kB[?25h[?25lProgress (5): 16/33 kB | 32/35 kB | 19/29 kB | 32/49 kB | 24/116 kB[24;11H[?25h[?25lProgress (5): 16/33 kB | 32/35 kB | 19/29 kB | 36/49 kB | 27/116 kB[24;12H[?25h[?25lProgress (5): 19/33 kB | 32/35 kB | 19/29 kB | 40/49 kB | 27/116 kB[24;54H[?25h[?25lProgress (5): 19/33 kB | 35/35 kB | 21/29 kB | 40/49 kB | 30/116 kB[24;10H[?25h[?25lProgress (5): 19/33 kB | 35 kB | 21/29 kB | 40/49 kB | 30/116 kB   [24;29H[?25h[?25lProgress (5): 19/33 kB | 35 kB | 21/29 kB | 40/49 kB | 32/116 kB[24;4H[?25h[?25lProgress (5): 21/33 kB | 35 kB | 21/29 kB | 45/49 kB | 32/116 kB[24;51H[?25h[?25lProgress (5): 21/33 kB | 35 kB | 21/29 kB | 49/49 kB | 32/116 kB[24;47H[?25h[?25lProgress (5): 21/33 kB | 35 kB | 24/29 kB | 49/49 kB | 46/116 kB[24;57H[?25h[?25lProgress (5): 24/33 kB | 35 kB | 24/29 kB | 49 kB | 40/116 kB   [24;9H[?25h[?25lProgress (5): 24/33 kB | 35 kB | 27/29 kB | 49 kB | 45/116 kB[24;22H[?25h[?25lProgress (5): 27/33 kB | 35 kB | 27/29 kB | 49 kB | 49/116 kB[24;52H[?25h[?25lProgress (5): 32/33 kB | 35 kB | 27/29 kB | 49 kB | 49/116 kB[24;56H[?25h[?25lProgress (5): 33 kB | 35 kB | 27/29 kB | 49 kB | 53/116 kB   [24;2H[?25h[?25lProgress (5): 33 kB | 35 kB | 29 kB | 49 kB | 57/116 kB   [24;33H[?25h[?25lProgress (5): 33 kB | 35 kB | 29 kB | 49 kB | 65/116 kB[24;13H[?25h[?25l: 33 kB | 35 kB | 29 kB | 49 kB | [?25h[?25lProgress (5): 33 kB | 35 kB | 29 kB | 49 kB | 77/116 kB[24;9H[?25h[?25lProgress (5): 33 kB | 35 kB | 29 kB | 49 kB | 85/116 kB[?25h[?25lDownloaded from central: https://repo.maven.apache.org/m[?25h[?25laven2/org/apache/maven/m[?25h[?25l
+aven-toolchain/1.0/maven-toolchain-1.0.jar (33 kB at[28X[28C[24;53H[?25h[?25l 53 kB/s)[?25h[?25l
+                                              B[33X[33C[24;47H[?25h[?25lDownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-model/2.0.6/maven[57X[57C[24;24H[?25h[?25l-model-2.0.6.jar[?25h[?25l
+[80X[80C[?25hPr[?25logress (4): 35 kB | 29 kB | 49 kB | 98/116 kB[?25h[?25lProgress (5): 35 kB | 29 kB | 49 kB | 98/116 kB[?25h [?25lProgress (5): 35 kB | 29 kB | 49 kB | 102/116 kB | 2.2/86 kB[24;24H[?25h[?25lProgress (5): 35 kB | 29 kB | 49 kB | 106/116 kB | 7.7/86 kB[24;42H[?25h[?25lProgress (5): 35 kB | 29 kB | 49 kB | 110/116 kB | 10/86 kB [24;50H[?25h[?25lProgress (5): 35 kB | 29 kB | 49 kB | 110/116 kB | 13/86 kB[24;5H[?25h[?25lress (5): 35 kB | 29 kB |[?25h[?25l 49 kB | 110/116[?25h [?25lkB | 16/86 kB[?25h[?25lProgress (5): 3[?25h[?25l5 kB | 29 kB | 49 kB |[?25h[?25l 110/116 kB | 19/8[?25h[?25lProgress (5): 35 kB | 29 kB | 49 kB | 110/116 kB | 19/86 kB[24;16H[?25h[?25l5 kB | 29 kB | 49 kB[?25h[?25l | 114/116 kB | 19/8[?25h[?25lProgress (5): 35 kB | 29 kB | 49 kB | 114/116 kB | 19/86 kB[24;35H[?25h[?25lProgress (5): 35 kB | 29 kB | 49 kB | 116 kB | 21/86 kB    [24;12H[?25h[?25lProgress (5): 35 kB | 29 kB | 49 kB | 116 kB | 27/86 kB[24;6H[?25h[?25lProgress (5): 35 kB | 29 kB | 49 kB | 116 kB | 32/86 kB[24;21H[?25h[?25lProgress (5): 35 kB | 29 kB | 49 kB | 116 kB | 40/86 kB[24;47H[?25h[?25lProgress (5): 35 kB | 29 kB | 49 kB | 116 kB | 49/86 kB[?25h[?25lDownloaded from central: https://repo.maven.apac       [24;49H[?25h[?25lhe.org/maven2/org/apache/maven/m[?25h[?25l
+aven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar (29 kB at 32 kB/s)   [?25h[?25l
+Progress (4): 35 kB | 49 kB | 116[47X[47C[24;35H[?25h[?25lDownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-artifa[68X[68C[24;13H[?25h[?25lct/2.0.6/maven-artifact-2.0.6.jar[?25h[?25l
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-proje[70X[70C[24;11H[?25h[?25lct/2.0.6/maven-project-2.0.6.jar (116 kB at 124 kB/s)[?25h[?25l
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-artifact-man[62X[62C[24;19H[?25h[?25lager/2.0.6/maven-artifact-manager-2.0.6.jar[?25h[?25l
+Progress (3): 35 kB | 49 kB |[51X[51C[24;30H[?25h[?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-profile/[67X[67C[24;14H[?25h[?25l2.0.6/maven-profile-2.0.6.jar (35 kB at 36 kB/s)[?25h[?25l
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+m[79X[79C[24;2H[?25h[?25laven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar[?25h[?25l
+Progress (3): 49 kB | 57/86 kB | 4.1/87 kB[38X[38C[24;11H[?25h[?25lProgress (4): 49 kB | 61/86 kB | 7.7/87 kB | 2.2[?25h[?25lProgress (4): 49 kB | 65/86 kB | 12/87 kB | 2.2/57 kB [24;3H[?25h[?25lProgress (4): 49 kB | 65/86 kB | 20/87 kB | 5.0/57 kB[24;36H[?25h[?25lProgress (5): 49 kB | 69/86 kB | 20/87 kB | 5.0/57 kB | 4.1/24 kB[?25h[?25lProgress (5): 49 kB | 69/86 kB | 24/87 kB | 5.0/57 kB | 7.7/24 kB[24;60H[?25h[?25lProgress (5): 49 kB | 69/86 kB | 28/87 kB | 7.7/57 kB | 7.7/24 kB[24;30H[?25h[?25lProgress (5): 49 kB | 73/86 kB | 28/87 kB | 7.7/57 kB | 12/24 kB [24;47H[?25h[?25lProgress (5): 49 kB | 73/86 kB | 32/87 kB | 10/57 kB | 16/24 kB [?25h[?25lProgress (5): 49 kB | 77/86 kB | 36/87 kB | 10/57 kB | 20/24 kB[24;4H[?25h[?25l                                                       24/24 kB[24;55H[?25h[?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-settings/2.0.6/maven-settings-2.0.6.jar (49 kB at 45 kB/s)[17X[17C[?25h[?25l
+                    kB | 40/87 kB | 13/57 kB | 24/24 kB[25X[25C[24;21H[?25h[?25lDownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-core/2.0.6/maven-core-2.0.6.jar[43X[43C[?25h[?25l
+Progress (4): 77/86 kB | 45/87 kB | 13/57 kB | 24/24 kB[25X[25C[24;3H[?25h[?25lProgress (4): 81/86 kB | 49/87 kB | 13/57 kB | 24 kB   [24;30H[?25h[?25lProgress (4): 85/86 kB | 53/87 kB | 16/57 kB | 24 kB[?25h[?25lProgress (4): 85/86 kB | 57/87 kB | 16/57 kB | 24 kB[24;9H[?25h[?25lProgress (5): 85/86 kB | 61/87 kB | 19/57 kB | 24 kB[24;51H[?25h[?25lProgress (5): 86 kB | 61/87 kB | 19/57 kB | 24 kB | 4.1/152 kB   [24;44H[?25h[?25lProgress (5): 86 kB | 65/87 kB | 21/57 kB | 24 kB | 7.7/152 kB[24;19H[?25h[?25lProgress (5): 86 kB | 69/87 kB | 21/57 kB | 24 kB | 12/152 kB [24;40H[?25h[?25lProgress (5): 86 kB | 77/87 kB | 24/57 kB | 24 kB | 16/152 kB[24;36H[?25h[?25lProgress (5): 86 kB | 81/87 kB | 24/57 kB | 24 kB | 20/152 kB[24;33H[?25h[?25lProgress (5): 86 kB | 85/87 kB | 27/57 kB | 24 kB | 20/152 kB[24;21H[?25h[?25lProgress (5): 86 kB | 87 kB | 30/57 kB | 24 kB | 24/152 kB   [?25h[?25lProgress (5): 86 kB | 87 kB | 32/57 kB | 24 kB | 32/152 kB[24;57H[?25h[?25l                                    kB | 24 kB | 36/152 kB[24;36H[?25h[?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-model/2.0.6/maven-model-2.0.6.jar (86 kB at 71 kB/s[24X[24C[24;57H[?25h)[?25l
+Progress (4): 87 kB | 40/57 kB | 24 kB | 40/152 kB[30X[30C[24;32H[?25h[?25l| 24 kB | 40/152 kB[?25h[?25lProgress (4): 87 kB | 40[?25h[?25l/57 kB | 24 kB | 45/1[?25h[?25l                 kB | 40/57 kB | 24 kB | 45/152 kB[24;18H[?25h[?25l   [?25h[?25l[10X[10C[?25h[?25l       [?25h[?25lDownl[45X[45C[24;6H[?25h[?25loading from central: http[?25h[?25ls://repo.maven.ap[?25h[?25lache.org/maven2/org/ap[?25h[?25lache/maven/[?25h[?25l
+ma[78X[78C[24;3H[?25h[?25lven-plugin-parameter-documenter/2.0.6/maven-plugin-paramete[?25h[?25lr-documenter-2.0.6.[?25h[?25l
+jar[77X[77C[?25h[?25l
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-arti[71X[71C[24;10H[?25h[?25lfact/2.0.6/maven-artifact-2.0.6.jar (87 kB at 64 kB/s)[?25h[?25l
+Progress (3): 45/57 kB | 24 kB | 49/152 kB[38X[38C[24;9H[?25h[?25lDownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+reporting/maven-r[63X[63C[24;18H[?25h[?25leporting-api/2.0.6/maven-reporting-api-2.0.6.jar[?25h[?25l
+Progress (3): 49/57 kB | 24 kB | 57/152 kB[38X[38C[24;20H[?25h[?25lProgress (4): 49/57 kB | 24 kB | 65/152 kB | 2.2/21 kB[24;42H[?25h[?25lProgress (4): 57 kB | 24 kB | 65 65/152 kB | 2.2/21 kB[24;33H[?25h[?25lProgress (4): 57 kB | 24 kB | 69/152 kB | 5.0/21 kB   [24;9H[?25h[?25lProgress (5): 57 kB | 24 kB | 77/152 kB | 5.0/21 kB | 4.1/9.9 kB[24;54H[?25h[?25lDownloade[55X[55C[24;10H[?25h[?25ld from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar (24 kB at 17 [?25h[?25l
+kB/s)[75X[75C[?25h[?25l
+[80X[80C[?25h[?25l rogress (4): 57 kB | 85/152 kB | 7.7/21 kB | 7.7/9.9 kB[24;2H[?25h[?25lDownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+doxia/doxia-sink-api/[59X[59C[24;22H[?25h[?25l1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar[?25h[?25l
+Progress (4): 57 kB | 85/[55X[55C[24;26H[?25h[?25l152 kB | 10/21 kB | 7.7[?25h[?25lDownloaded from central: https://repo.[17X[17C[24;39H[?25h[?25lmaven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar (57 kB at 38 kB/s) [?25h[?25l
+Progress (3): 90/152 kB | 10/21 kB | 7.7/9.9 kB[33X[33C[24;21H[?25h[?25lDownloading from central: https://repo.maven.apache.org/maven[?25h[?25l2/org/apache/maven/[?25h[?25l
+maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar[17X[17C[?25h[?25l
+Progress (4): 94/152 kB | 10/21 kB | 9.9 kB | 2.2/5.9 kB[24X[24C[24;18H[?25h[?25lProgress (4): 98/152 kB | 13/21 kB | 9.9 kB | 5.0/5.9 kB[24;3H[?25h[?25lProgress (4): 98/152 kB | 16/21 kB | 9.9 kB | 5.9 kB    [24;26H[?25h[?25lProgress (4): 102/152 kB | 21 kB | 9.9 kB | 5.9 kB   [?25h[?25lProgress (5): 106/152 kB | 21 kB | 9.9 kB | 5.9 kB | 4.1/14 kB[24;43H[?25h[?25lProgress (5): 110/152 kB | 21 kB | 9.9 kB | 5.9 kB | 12/14 kB [?25h[?25lProgress (5): 114/152 kB | 21 kB | 9.9 kB | 5.9 kB | 14 kB   [?25hP[?25lProgress (5): 126/152 kB | 21 kB | 9.9 kB | 5.9 kB | 14 kB[24;31H[?25h[?25lProgress (5): 131/152 kB | 21 kB | 9.9 kB | 5.9 kB | 14 kB[24;48H[?25h[?25l kB | 14 kB[?25h[?25lProgress (5)[?25h[?25l: 135/152 kB | 21 kB [?25h[?25l| 9.9 kB | 5.9 kB |[?25h [?25l14[?25h [?25lProgress (5): 135/152 kB | 21 kB | 9.9 kB | 5.9 kB | 14 kB[24;7H[?25h[?25lss[?25h ([?25l5): 139/152 kB | 21 kB | 9.9 kB [?25h[?25lProgress (5): 147/152 kB | 21 kB | 9.9 kB | 5.9 kB | 14 kB[24;10H[?25h[?25l(5): 151/152[?25h[?25l                1/152 kB | 21 kB | 9.9 kB | 5.9 kB | 14 kB[24;17H[?25h[?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-plugin-parameter-documenter/2.0.6/mave[37X[37C[24;44H[?25h[?25ln-plugin-parameter-documenter-2.0.6.j[?25h[?25l
+ar (21 kB at 12 kB/s)[59X[59C[?25h[?25l
+Downloading from central: https://repo.maven.apache.org/maven2/commons-cli/commo[?25h[?25l
+ns-cli/1.0/comm[65X[65C[24;16H[?25h[?25lons-cli-1.0.jar[?25h[?25l
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/r[?25h[?25l
+eporting/maven-reporting-api/2.0.6/maven-reporting-ap[27X[27C[24;54H[?25h[?25li-2.0.6.jar (9.9 kB at 5.5 [?25h[?25l
+kB/s)[75X[75C[?25h[?25l
+Downloaded from central: https://repo.[42X[42C[24;39H[?25h[?25lmaven.apache.org/maven2/org/apache/maven/d[?25h[?25l
+oxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar (5.9 kB at 3.3 kB[?25h[?25l
+/s)[77X[77C[?25h[?25l
+Pro[77X[77C[24;4H[?25h[?25lDownloading from central: https://repo.mav  [24;43H[?25h[?25len.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar[17X[17C[?25h[?25l
+Progress (3): 152 kB | 14 kB | 4.1/30 kB[40X[40C[24;31H[?25h[?25lDownloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plex[?25h[?25l
+us/plexus-in[68X[68C[24;13H[?25h[?25lteractivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar[?25h[?25l
+[80X[80C[?25h[?25l
+Pr[78X[78C[24;3H[?25h[?25lDownloaded from central[16X[16C[24;24H[?25h[?25l: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar (14 kB at 7.2 kB/[?25h[?25l
+[80X[80C[?25h[?25ls)[?25h[?25l
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-[74X[74C[24;7H[?25h[?25lmonitor/2.0.6/maven-monitor-2.0.6.jar[?25h[?25l
+Progress (3): 152 kB | 16/30 kB | 5.0/37 kB[37X[37C[24;43H[?25h[?25lProgress (3): 152 kB | 24/30 kB | 7.7/37 kB[24;13H[?25h[?25lProgress (4): 152 kB | 28/30 kB | 10/37 kB | 4.1/13 kB[24;36H[?25h[?25lProgress (5): 152 kB | 28/30 kB | 10/37 kB | 7.7/13 kB | 2.2/10 kB[24;31H[?25h[?25lProgress (5): 152 kB | 28/30 kB | 13/37 kB | 12/13 kB | 5.0/10  kB[24;64H[?25h[?25lDownloaded f[54X[54C[24;13H[?25h[?25lrom central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-core/2.0.6/maven-core-2.0.6.jar (152 kB at 78 kB/s)[24X[24C[?25h[?25l
+[80X[80C[?25h[?25lProgress (4): 30 kB | 16/37 kB | 13 kB | 7.7/10 kB[24;28H[?25h[?25l                             B | 13 kB | 10 kB    [24;30H[?25h[?25lDownloading from central: htt[17X[17C[24;30H[?25h[?25lps://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+maven-plugin-api/2.0.6/maven-plugin-api-2.0.6[35X[35C[24;46H[?25h[?25l.jar[?25h[?25l
+[80X[80C[?25h[?25lDownloaded from central: https://repo.maven.apache.org/maven2/commons-cli/common[?25h[?25l
+s-[78X[78C[24;3H[?25h[?25lcli/1.0/commons-cli-1.0.jar ([?25h[?25l30 kB at 15 kB/s)[?25h[?25l
+Downloading from central: https://repo.m[40X[40C[24;41H[?25h[?25laven.apache.org/maven2/org/codehaus/plex[?25h[?25l
+us/plexus-utils/2.0.5/plexus-utils-2.0.5.jar[36X[36C[?25h[?25l
+Progress (4): 19/37 kB | 13 kB | 10 kB | 2.2/13 kB[30X[30C[24;13H[?25h[?25lProgress (4): 21/37 kB | 13 kB | 10 kB | 2.2/13 kB[24;12H[?25h[?25lProgress (4): 21/37 kB | 13 kB | 10 kB | 7.7/13 kB[24;23H[?25h[?25lProgress (4): 24/37 kB | 13 kB | 10 kB | 10/13 kB [24;43H[?25h[?25lProgress (5): 24/37 kB | 13 kB | 10 kB | 13 kB | 4.1/223 k[?25h[?25lProgress (5): 27/37 kB | 13 kB | 10 kB | 13 kB | 4.1/223 kB[24;28H[?25h[?25lProgress (5): 30/37 kB | 13 kB | 10 kB | 13 kB | 7.7/223 kB[?25h[?25lProgress (5): 37 kB kB | 13 kB | 10 kB | 13 kB | 7.7/223 kB[24;21H[?25h[?25lProgress (5): 37 kB | 13 kB | 10 kB | 13 kB | 12/223 kB    [24;41H[?25h[?25lProgress (5): 37 kB | 13 kB | 10 kB | 13 kB | 24/223 kB[24;9H[?25h[?25lProgress (5): 37 kB | 13 kB | 10 kB | 13 kB | 32/223 kB[24;2H[?25h[?25lProgress (5): 37 kB | 13 kB | 10 kB | 13 kB | 40/223 kB[?25h[?25lPr[?25h[?25l                                                      B[?25h[?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-monitor/2.0.6/maven-monitor-2.0.6.j[40X[40C[24;41H[?25h[?25lar (10 kB at 4.7 kB/s)[?25h[?25l
+                         kB | 13 kB | 49/223 kB[33X[33C[24;25H[?25h[?25lDownloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plex[?25h[?25l
+us/plexus-container-default/1.0-alpha-9/plexus-[33X[33C[24;48H[?25h[?25lcontainer-default-1.0-alpha-9.jar[?25h[?25l
+[80X[80C[?25h[?25l
+Progress (4): 37 kB | 13 kB | 13 kB | 57/223 kB[33X[33C[24;7H[?25h[?25lProgress (4): 37 kB | 13 kB | 13 kB | 69/223 kB[24;45H[?25h[?25lProgress (4): 37 kB | 13 kB | 13 kB | 73/223 kB[24;31H[?25h1[?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/codeha[?25h[?25lus/plexu[?25h[?25l
+s/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar [?25h[?25l
+(13 kB at 5.9 kB/s)[61X[61C[?25h[?25l
+Progress (4): 37 kB | 13 kB | 77/223 k[42X[42C[24;39H[?25h[?25lDownloading from central: https://repo.maven.apache.org/maven2/org/apache/commo[?25hn[?25l
+s/commons-exec/1.1/commons-exec-1.1.jar[41X[41C[?25h[?25l
+Progress (4): 37 kB | 13 kB | 81/223 kB | 7.7/195 kB[28X[28C[?25h[?25lProgress (4): 37 kB | 13 kB | 85/223 kB | 12/195 kB [24;17H[?25h[?25lProgress (5): 37 kB | 13 kB | 90/223 kB | 16/195 kB[24;30H[?25h[?25l                                                    | 4.1/53 kB[24;52H[?25h[?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar (13 kB at 5.6 kB/s)[12X[12C[?25h[?25l
+[80X[80C[?25h[?25lProgress (4): 37 kB | 94/223 kB | 20/195 kB | 7.7/53 kB[24;40H[?25h[?25lProgress (4): 37 kB | 98/223 kB | 20/195 kB | 12/53 kB [24;12H[?25h[?25lProgress (4): 37 kB | 98/223 kB | 24/195 kB | 16/53 kB[24;47H[?25h[?25lProgress (4): 37 kB | 102/223 kB | 24/195 kB | 24/53 kB[24;30H[?25h[?25lProgress (4): 37 kB | 106/223 kB | 28/195 kB | 28/53 kB[24;20H[?25h[?25lProgress (4): 37 kB | 106/223 kB | 32/195 kB | 36/53 kB[?25h[?25lProgress (4): 37 kB | 110/223 kB | 36/195 kB | 40/53 kB[24;49H[?25h[?25lProgress (4): 37 kB | 114/223 kB | 36/195 kB | 45/53 kB[24;21H[?25h[?25lProgress (4): 37 kB | 114/223 kB | 40/195 kB | 53 kB   [?25h[?25lProgress (4): 37 kB | 118/223 kB | 45/195 kB | 53 kB[24;12H[?25h[?25lProgress (4): 37 kB | 122/223 kB | 49/195 kB | 53 kB[24;19H[?25h[?25lProgress (4): 37 kB | 131/223 kB | 53/195 kB | 53 kB[24;10H[?25h[?25lProgress (4): 37 kB | 135/223 kB | 61/195 kB | 53 kB[?25h[?25lProgress (4): 37 kB | 139/223 kB | 65/195 kB | 53 kB[24;19H[?25h[?25lDownloaded from c[35X[35C[24;18H[?25h[?25lentral: https://repo.maven.apache.org/maven2/org/apache/commons[?25h[?25l
+/commons-exec/1.1/commons-exec-1.1.jar (53 kB at 21 kB/s)[23X[23C[?25h[?25l
+Progress (3): 37 kB | 147/223 kB[48X[48C[24;34H[?25h[?25lProgress (3): 37 kB | 151/223 kB | 77/195 kB[24;6H[?25h[?25lProgress (3): 37 kB | 159/223 kB | 81/195 kB[24;24H[?25h[?25lProgress (3): 37 kB | 163/223 kB | 90/195 kB[24;20H[?25h[?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/m[?25h[?25l
+aven-plugin-[68X[68C[24;13H[?25h[?25ldescriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar (37 kB at 15 kB/s[?25h[?25l
+)[79X[79C[?25h[?25l
+Progress (2): 171/223 kB | 94/195 kB[44X[44C[?25h[?25lProgress (2): 180/223 kB | 102/195 kB[24;17H[?25h[?25lProgress (2): 192/223 kB | 110/195 kB[24;21H[?25h[?25lProgress (2): 200/223 kB | 118/195 kB[24;35H[?25h[?25lProgress (2): 208/223 kB | 126/195 kB[24;21H[?25h[?25lProgress (2): 217/223 kB | 135/195 kB[24;7H[?25h[?25lProgress (2): 223 kB | 147/195 kB    [24;29H[?25h[?25lProgress (2): 223 kB | 159/195 kB[24;27H[?25h[?25lProgress (2): 223 kB | 176/195 kB[24;6H[?25h[?25lProgress (2): 223 kB | 192/195 kB[?25h[?25lProgress (2): 223 kB | 195 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexu[?25h[?25l
+s/plexus-utils/2.0.5/plexus-utils-2.0.5.jar (223 kB[29X[29C[24;53H[?25h[?25lat 85 kB/s)[?25h[?25l
+[80X[80C[?25h[?25lDownloaded [?25h[?25lfrom central: https://repo.maven.apache.org/maven2/org/codehaus/plexu[?25h[?25l
+s/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar [?25h[?25l
+(195 kB at[70X[70C[24;11H[?25h[?25l 74 kB/s)[?25h[?25l
+[80X[80C[?25hH[?25lello World![?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;32mBU[54X[54C[24;27H[?25h[?25lILD SUCCESS[m[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] To[61X[61C[24;20H[?25h[?25ltal time:  10.025 s[?25h[?25l
+[[1;34mINFO[m] Finished at: 2020-02-20T13:36:04-06:00[25X[25C[?25h[?25l
+[[1;34mINFO[m] [1m-------------------------------------------------------    [24;77H[?25h[?25l----[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-name
+[32mUgly@DESKTOP-S23UG9M [33m~/app-name[0m
+$ mvn exec:java[C[C[C[C[C[C[2Pcompile[C[Cjava -jar target/app-name-1.0-SNAPSHOT.jar [C[Cmvn package[K[3Psitecleaninstall[1Pverifyintegration-test[C[C[C[C[C[C[9Ppackage[3Ptestcompilevalidate[C[C[4Pvalidate[C[Cmvn -version[C[Ccd app-name/[C[Cls[Kexit[C[Cscript[C[Cmvn compile[C[Ccat pom.xml[C[Cls[Kcd app-name/[C[Cls[Kmvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=app-name -DarchhetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMMode=false[A[A[C[Cls[K
+[K
+[K[A[A[C[C[C[Cexit[C[Cscript[C[Cmvn compile[C[Cjava -jar target/app-name-1.0-SNAPSHOT.jar [C[Cexport JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64[C[C[11Pjava -jar target/app-name-1.0-SNAPSHOT.jar [C[Cexport JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"[C[C[13Pjava -jar target/app-name-1.0-SNAPSHOT.jar [C[Cmvn package[Kcompile[C[Cjava -jar target/app-name-1.0-SNAPSHOT.jar [C[C[C[C[C[C[1@c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmvn package[K[C[Cjava -jar target/app-name-1.0-SNAPSHOT.jar [C[Cmvn compile[K[C[Cjava -jar target/app-name-1.0-SNAPSHOT.jar [C[Cmvn package[K[3Psitecleaninstall[1Pverifyintegration-test[C[C[C[C[C[C[9Ppackage[3Ptestcompilevalidate[C[C[8Pexit[C[Cmvn -v[C[Cant run[C[Cls[Kcd CircleCalcAntStub/[C[C[14Pant run[K[C[C[2Plscd tutorial-ant/[C[Cls[Kcd tutorial-ant/[C[Cls[Kant run[C[Ccd CircleCalcAntStub/[C[Cls[Kant run[C[C[1Pmvn -v[C[C[2Pexit[C[Cmvn validate[C[C[C[C[C[C[1Pcompile[3Ptestpackageintegration-test[C[C[C[C[C[C[10Pverifyinstall[2Pclean[1Psitepackage[C[Cjava -jar target/app-name-1.0-SNAPSHOT.jar [C[Cmvn compile[K[C[Cjava -jar target/app-name-1.0-SNAPSHOT.jar [C[Cmvn package[K[C[Cjava -jar target/app-name-1.0-SNAPSHOT.jar [C[C[C[C[C[C[1@c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmvn compile[Kpackage[C[Cjava -jar target/app-name-1.0-SNAPSHOT.jar [C[Cexport JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"[C[C[13Pjava -jar target/app-name-1.0-SNAPSHOT.jar [C[Cexport JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64[C[C[11Pjava -jar target/app-name-1.0-SNAPSHOT.jar [C[Cmvn compile[K[C[C[5Pscript[C[C[2Pexit[C[C[2Plsmvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=app-name -DarchhetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMMode=false[A[A[C[Cls[K
+[K
+[K[A[A[C[C[C[Ccd app-name/[C[Cls[Kcat pom.xml[C[Cmvn compile[C[C[5Pscript[C[C[2Pexit[C[C[2Plscd app-name/[C[Cmvn -version[C[C[4Pvalidate[C[Cmvn validate[C[C[C[C[C[C[1Pcompile[3Ptestpackageintegration-test[C[C[C[C[C[C[10Pverifyinstall[2Pclean[1Psitepackage[C[Cjava -jar target/app-name-1.0-SNAPSHOT.jar [C[Cmvn compile[Kexec:java[C[C[Kcd..[K[K ..
+]0;~
+[32mUgly@DESKTOP-S23UG9M [33m~[0m
+$ ls
+app-name  build.xml  tutorial-ant
+]0;~
+[32mUgly@DESKTOP-S23UG9M [33m~[0m
+$ lscd ..[C[Cmvn exec:java[C[C[C[C[C[C[2Pcompile[C[Cjava -jar target/app-name-1.0-SNAPSHOT.jar [C[Cmvn package[K[3Psitecleaninstall[1Pverifyintegration-test[C[C[C[C[C[C[9Ppackage[3Ptestcompilevalidate[C[C[4Pvalidate[C[Cmvn -version[C[Ccd app-name/[C[Cls[Kexit[C[Cscript[C[Cmvn compile[C[Ccat pom.xml[C[Cls[Kcd app-name/[C[Cls[Kmvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=app-name -DarchhetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMMode=false[A[A[C[Cls[K
+[K
+[K[A[A[C[C[C[Cexit[C[Cscript[C[Cmvn compile[C[C[5Pscript[C[C[2Pexit[C[C[2Plsmvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=app-name -DarchhetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMMode=false[A[A[C[Cls[K
+[K
+[K[A[A[C[C[C[Cmvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=app-name -DarchhetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMMode=false[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DinteractiveMo[1Pde=false[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 -DinteractiveMode=false[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4
+[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMo[1Pde=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMod[1Pe=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode[1P=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=[1Pfalse[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -Dinteracti[1PveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -Dinteractiv[1PeMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -Dinteractive[1PMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveM[1Pode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMo[1Pde=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMod[1Pe=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode[1P=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=[1Pfalse[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=f[1Palse[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=fa[1Plse[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=fal[1Pse[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=fals[1Pe[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false [K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifa[1P
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifac[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -DartifactId=app-tutmaven -DarchetypeArtifact[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co -DartifactId=app-tutmaven -DarchetypeArtifac[1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr -DartifactId=app-tutmaven -DarchetypeArtifa[1@c[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false [A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=falsee[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4 -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C6 -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl -DartifactId=app-tutmaven -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m------------------< [0;36morg.apache.maven:standalone-pom[?25h[?25l
+[0;1m >---------------[58X[58C[24;23H[?25h[?25l----[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding Maven Stub Project (No POM) 1[m[18X[18C[?25h[?25l
+[[1;34mINFO[m] [1m--------------------------------[[26X[26C[24;55H[?25h[?25l pom ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m>>> [0;32mmaven-archetype-plugin:3.1.2:generate[m [1m(de[?25h[?25l
+[80X[80C[?25h[?25lfault-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m[?25h[?25l
+[[1;34mINFO[[66X[66C[24;15H[?25h[?25lm] [?25h[?25l
+[[1;34mINFO[m] [1m<<< [0;32mmaven-archetype-plugin:3.1.2:generate[m [1m(de[?25h[?25l
+fault-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m [?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-archetype-plugin:3.1.2:generate[m [1m(de[?25h[?25l
+fault-cli)[m @ [36mstandalone-pom[0;1m ---[m[32X[32C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Generating project in Batch mode[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] ---------------------------------------------------------------[?25h[?25l
+-------------[67X[67C[?25h[?25l
+[[1;34mINFO[m] Using following parameters for creating project from Archetype:[?25h[?25l
+ maven-archetype[64X[64C[24;17H[?25h[?25l-quickstart:1.4[?25h[?25l
+[[1;34mINFO[m] ---------------------------------------------------------------[?25h[?25l
+-------------[67X[67C[?25h[?25l
+[[1;34mINFO[m] Parameter: groupId, Value:[37X[37C[24;45H[?25h[?25lorg.ee461l.tutorial[?25h[?25l
+[[1;34mINFO[m] Parameter: artifactId, Value: app-tutmaven[21X[21C[?25h[?25l
+[[1;34mINFO[m] Parameter: version, Value: 1.0-SNAPSHOT[24X[24C[?25h[?25l
+[[1;34mINFO[m] Parame[57X[57C[24;24H[?25h[?25lter: package, Value: org.ee461l.tutorial[?25h[?25l
+[[1;34mINFO[m] Parameter: packageInPathFormat, Value: org/ee461l/tutorial     [?25h[?25l
+[[1;34mINFO[m] Parameter: version, Value: 1.0-SNAPSHO[25X[25C[24;56H[?25hT[?25l
+[[1;34mINFO[m] Parameter: package, Value: org.ee461l.tutorial[17X[17C[?25h[?25l
+[[1;34mINFO[[66X[66C[24;15H[?25hm[?25l] Parameter: groupId, Value: org.ee461l.tutorial[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Parameter: artifactId, Value: app-tutmaven[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Project created from Archetype in dir: C:\cygwin64\home\Ugly\ap[?25h[?25l
+p-tutmaven[70X[70C[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------[24X[24C[24;57H[?25h[?25l------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m[40X[40C[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Total time:  5.442 s[?25h[?25l
+[[1;34mINFO[m] Finished at: 2020-02-20T13:38:17-06:00[25X[25C[?25h[?25l
+[[1;34m[72X[72C[24;9H[?25h[?25lINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[0m[0m[72X[72C[24;9H[?25h]0;~
+[32mUgly@DESKTOP-S23UG9M [33m~[0m
+$ ls
+app-name  app-tutmaven	build.xml  tutorial-ant
+]0;~
+[32mUgly@DESKTOP-S23UG9M [33m~[0m
+$ cd app-tutmaven/
+]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ ls
+pom.xml  src
+]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ mvn validate
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--------------------< [0;36morg.ee461l.tutorial:tutmaven[[?25h[?25l
+0;1m >---------------[59X[59C[24;22H[?25h[?25l-----[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding tutmaven 1.0[m[35X[35C[?25h[?25l
+[[1;34mINFO[m] [1m--------[51X[51C[24;30H[?25h[?25l------------------------[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+----[76X[76C[24;5H[?25h[?25l---------[m[?25h[?25l
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m[40X[40C[?25h[?25l
+[[1;34mINFO[m] [1m----------------[43X[43C[24;38H[?25h[?25l-------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[?25h[?25l[m] Total tim[?25h[?25le:  0.208 s[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINF[?25h[?25lO[m] Finished at: 2020-02-20T13:48:19-06:00[?25h[?25l
+[[1;34mINFO[m] [1m--[57X[57C[24;24H[?25h[?25l---------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ mvn compile
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--------------------< [0;36morg.ee461l.tutorial:tutmaven[[?25h[?25l
+[80X[80C[?25h[?25l0;1m >--------------------[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding tutmaven 1.0[m[35X[35C[?25h[?25l
+[[1;34mINFO[[66X[66C[24;15H[?25h[?25lm] [1m--------------------------------[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/common[?25h[?25l
+s/commons-math/2.2/commons-math-2.2.pom[41X[41C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 2.2/11 kB[24;2H[?25h[?25lProgress (1): 7.8/11 kB[24;19H[?25h[?25lProgress (1): 11/11 kB [24;2H[?25h[?25lrogress (1): 11 kB   [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons[?25h[?25l
+/commons-math/2.2/commons-math-2[48X[48C[24;33H[?25h[?25l.2.pom (11 kB at 12 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/common[?25h[?25l
+s/commons-parent/18/commons-parent-18.pom[39X[39C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 5.0/34 kB[24;8H[?25h[?25lProgress (1): 16/34 kB [?25h[?25lProgress (1): 24/34 kB[?25h[?25lProgress (1): 34 kB   [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons[?25h[?25l
+/commons-parent/[64X[64C[24;17H[?25h[?25l18/commons-parent-18.pom (34 kB at 307 kB/s)[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/common[?25h[?25l
+s/commons-math/2.2/commons-math-2.2.jar[41X[41C[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 16/989 kB [24;2H[?25h[?25lProgress (1): 32/989 kB[?25h[?25lProgress (1): 57/989 kB[?25h[?25lProgress (1): 90/989 kB[?25h[?25lProgress (1): 122/989 kB[24;21H[?25h[?25lProgress (1): 155/989 kB[?25h[?25lProgress (1): 204/989 kB[?25h[?25lProgress (1): 262/989 kB[?25h[?25lProgress (1): 294/989 kB[?25h[?25lProgress (1): 311/989 kB[?25h[?25lProgress (1): 327/989 kB[24;22H[?25h[?25lProgress (1): 335/989 kB[24;15H[?25h[?25lProgress (1): 352/989 kB[?25h[?25lProgress (1): 368/989 kB[24;21H[?25h[?25lProgress (1): 376/989 kB[24;7H[?25h[?25lProgress (1): 393/989 kB[?25h[?25lProgress (1): 409/989 kB[?25h[?25lProgress (1): 425/989 kB[24;20H[?25h[?25lProgress (1): 434/989 kB[24;9H[?25h[?25lProgress (1): 450/989 kB[?25h[?25lProgress (1): 458/989 kB[24;15H[?25h[?25lProgress (1): 475/989 kB[24;6H[?25h[?25lProgress (1): 491/989 kB[?25h[?25lProgress (1): 507/989 kB[24;22H[?25h[?25lProgress (1): 524/989 kB[24;18H[?25h[?25lProgress (1): 532/989 kB[?25h[?25lProgress (1): 548/989 kB[24;22H[?25h[?25lProgress (1): 557/989 kB[24;13H[?25h[?25lProgress (1): 573/989 kB[24;10H[?25h[?25lProgress (1): 589/989 kB[?25h[?25lProgress (1): 606/989 kB[?25h[?25lProgress (1): 622/989 kB[24;18H[?25h[?25lProgress (1): 630/989 kB[24;16H[?25h[?25lProgress (1): 647/989 kB[24;9H[?25h[?25lProgress (1): 663/989 kB[?25h[?25lProgress (1): 679/989 kB[?25h[?25lProgress (1): 696/989 kB[24;19H[?25h[?25lProgress (1): 704/989 kB[24;15H[?25h[?25lProgress (1): 720/989 kB[24;5H[?25h[?25lProgress (1): 737/989 kB[?25h[?25lProgress (1): 753/989 kB[?25h[?25lProgress (1): 771/989 kB[24;17H[?25h[?25lProgress (1): 778/989 kB[24;9H[?25h[?25lProgress (1): 794/989 kB[?25h[?25lProgress (1): 810/989 kB[?25h[?25l[?25h[?25lProgress (1): 819/989 kB[24;12H[?25h[?25lProgress (1): 835/989 kB[?25h[?25lProgress (1): 851/989 kB[?25h[?25lProgress (1): 868/989 kB[?25h[?25lProgress (1): 884/989 kB[?25h[?25lProgress (1): 992/989 kB[24;16H[?25h[?25lProgress (1): 909/989 kB[24;11H[?25h[?25lProgress (1): 925/989 kB[24;2H[?25h[?25lProgress (1): 942/989 kB[?25h[?25lProgress (1): 950/989 kB[24;16H[?25h[?25lProgress (1): 966/989 kB[24;10H[?25h[?25lProgress (1): 982/989 kB[24;6H[?25h[?25less (1): 989 kB    [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons[?25h[?25l
+/commons-math/2.2/commons-math-2.2.[45X[45C[24;36H[?25h[?25ljar (989 kB at 1.6 MB/s)[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(d[?25h[?25l
+efault-resources)[m @ [36mtutmaven[[42X[42C[24;39H[?25h[?25l0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;33mWARNING[m] Using platform encoding (Cp1252 actually) to copy filtered r[?25h[?25l
+esources, i.e. build is platform dependent![37X[37C[?25h[?25l
+[[1;34mINFO[m] s[62X[62C[24;19H[?25h[?25lkip non existing resourceDirectory C:\cygwin64\home\Ugly\app-t[?25h[?25l
+utmaven\src\main\resources[54X[54C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(defa[?25h[?25l
+ult-compile)[m @ [36mtutmaven[0;1m ---[m[36X[36C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Changes detected - recompiling the module![?25h[?25l
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding Cp12[?25h[?25l
+52, i.e. build is platfor[55X[55C[24;26H[?25h[?25lm dependent![?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Compiling 3 source files to C:\cygwin64\home\Ugly\app-tutmaven\[?25h[?25l
+target\classes[66X[66C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m[40X[40C[?25h[?25l
+[[1;34mINFO[m] [[61X[61C[24;20H[?25h[?25l1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] Total time:  5.306 s[43X[43C[?25h[?25l
+[[78X[78C[24;3H[?25h[?25l[1;34mINFO[m] Finished at: 2020-02-20T13:48:32-06:00[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ mvn test
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[?25h[?25l[m] [?25h[?25l
+[[1;34mINFO[m] [1m---[56X[56C[24;25H[?25h[?25l-----------------< [0;36morg.ee461l.tutorial:tutmaven[[?25h[?25l
+0;1[77X[77C[24;4H[?25h[?25lm >--------------------[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding tutmaven 1.0[m[35X[35C[?25h[?25l
+[[1;34mINFO[[66X[66C[24;15H[?25h[?25lm] [1m--------------------------------[ jar ]--------------------[?25h[?25l
+------[74X[74C[24;7H[?25h[?25l-------[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(d[?25h[?25l
+efault-resources[64X[64C[24;17H[?25h[?25l)[m @ [36mtutmaven[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;33mWARNING[m] Using platform encoding (Cp1252 actually) to copy filtered r[?25h[?25l
+esources, i.e. build is platform dependent![37X[37C[?25h[?25l
+[[1;34mINFO[m] skip non existing re[43X[43C[24;38H[?25h[?25lsourceDirectory C:\cygwin64\home\Ugly\app-t[?25h[?25l
+utmaven\src\main\resources[54X[54C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plug[29X[29C[24;52H[?25h[?25lin:3.8.0:compile[m [1m(defa[?25h[?25l
+ult-compile)[m @ [36mtutmaven[0;1m ---[m[36X[36C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Changes detected - recompiling the module![?25h[?25l
+[[1;33mWARNING[m[62X[62C[24;19H[?25h[?25l] File encoding has not been set, using platform encoding Cp12[?25h[?25l
+52, i.e. build is platform dependent![43X[43C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m][?25h[?25l Compiling 3 source files to C:\cygwin64\home\Ugly\app-tutmaven\[?25h[?25l
+target\classes[66X[66C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResources[m [[?25h[?25l
+1m(default-testResources)[m @ [36mtutmaven[0;1m[30X[30C[24;52H[?25h[?25l---[m[?25h[?25l
+[[1;33mWARNING[m] Using platform encoding (Cp125[30X[30C[24;51H[?25h[?25l2 actually) to copy filtered r[?25h[?25l
+esources, i.e. build is platform dependent![37X[37C[?25h[?25l
+[[1;34mINFO[m] sk[61X[61C[24;20H[?25h[?25lip non existing resourceDirectory C:\cygwin64\home\Ugly\app-t[?25h[?25l
+utmaven\src\test\resources[54X[54C[?25h[?25l
+[[1;34mINF[69X[69C[24;12H[?25h[?25lO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m([?25h[?25l
+default-testCompile)[m @ [[52X[52C[24;29H[?25h[?25l36mtutmaven[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Changes detected - recompiling the module![?25h[?25l
+[[1;33mWARNING[m] File encoding has not been set, u[27X[27C[24;54H[?25h[?25lsing platform encoding Cp12[?25h[?25l
+52, i.e. build is platform dependent![43X[43C[?25h[?25l
+[[79X[79C[24;2H[?25h[?25l[1;34mINFO[m] Compiling 1 source file to C:\cygwin64\home\Ugly\app-tutmaven\t[?25h[?25l
+arget\test-classes[62X[62C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(defaul[?25h[?25l
+t-test)[m @ [36mtutmaven[0;1m ---[m[41X[41C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] -------------------------------------------------------        [?25h[?25l
+[[1;34mINFO[m]  T E S T S[53X[53C[?25h[?25l
+[[1;34mINFO[m] -----------------------------[34X[34C[24;47H[?25h[?25l--------------------------[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Running org.ee461l.tutorial.[1mAppTest[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skippe[?25h[?25l
+d: 0, Time elapsed: 0.065 s - in org.ee461l.tutorial.[1mAppTest[m[13X[13C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] Results:[55X[55C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[78X[78C[24;3H[?25h[?25l[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0[?25h[?25l, Skipped: 0[m[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m-------------------------------------------[?25h[?25l----------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;32mBU[54X[54C[24;27H[?25h[?25lILD SUCCESS[m[?25h[?25l
+[[1;34mINFO[m] [1m----------------[43X[43C[24;38H[?25h[?25l-------------------------------------------[?25h[?25l
+-------------[67X[67C[24;14H[?25h[?25l[m[?25h[?25l
+[[1;34mINFO[m] Total t[56X[56C[24;25H[?25h[?25lime:  5.102 s[?25h[?25l
+[[1;34mINFO[m] Finished at: 2020-0[44X[44C[24;37H[?25h[?25l2-20T13:48:44-06:00[?25h[?25l
+[[1;34mINFO[m] [1m----------------------[37X[37C[24;44H[?25h[?25l-------------------------------------[?25h[?25l
+-------------[m[64X[64C[24;17H[?25h[?25l[?25h[?25l
+[80X[80C[?25h]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ mvn verify
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--------------------< [0;36morg.ee461l.tutorial:tu        [24;73H[?25h[?25ltmaven[[?25h[?25l
+0;1m >--------------------[m[51X[51C[?25h[?25l
+[[1;34mINFO[m] [1mBuilding tutmaven 1.0[m[35X[35C[?25h[?25l
+[[1;34mINFO[67X[67C[24;14H[?25h[?25l[m] [1m-----------[?25h[?25l---------------------[ jar ]------------[?25h[?25l--------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(d[?25h[?25l
+efaul[75X[75C[24;6H[?25h[?25lt-resources)[m @ [36mtutmaven[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;33mWARNING[m] Using platform encoding (Cp1252 actually) to copy filtered r[?25h[?25l
+esources, i.e. build is platform depe[43X[43C[24;38H[?25h[?25lndent![?25h[?25l
+[[1;34mINFO[m] skip non existin[47X[47C[24;34H[?25h[?25lg resourceDirectory C:\cygwin64\home\Ugly\app-t[?25h[?25l
+utmaven\src\main\resources[54X[54C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[[11X[11C[24;70H[?25h[?25lm [1m(defa[?25h[?25l
+ult-compile)[m @ [36mtutmaven[0;1m ---[m[36X[36C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Changes detected - recompiling the module![?25h[?25l
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding Cp12[?25h[?25l
+52, i.e. b[70X[70C[24;11H[?25h[?25luild is platform dependent![?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Compiling 3 source files to C:\cygwin64\home\Ugly\app-tutmaven\[?25h[?25l
+target\classes[66X[66C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources[33X[33C[24;48H[?25h[?25l-plugin:3.0.2:testResources[m [[?25h[?25l
+1m(default-testResources)[m @ [36mtutmaven[0;1m -[28X[28C[24;53H[?25h[?25l--[m[?25h[?25l
+[[1;33mWARNI[67X[67C[24;14H[?25h[?25lNG[m] Using platform encoding (Cp1252 actually) to copy filtere[?25h[?25ld r[?25h[?25l
+esources, i.e. build is[57X[57C[24;24H[?25h[?25l platform dependent![?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Ugly\app-t[?25h[?25l
+[80X[80C[?25h[?25lutmaven\src\test\resources[?25h[?25l
+[[1;34mIN[70X[70C[24;11H[?25h[?25lFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [[53X[53C[24;28H[?25h[?25l0;32mmaven-compiler-plugin:3.8.0:testCompile[m [[?25h[?25l1m([?25h[?25l
+default-testCompile)[m @ [36mtutm[45X[45C[24;36H[?25h[?25laven[?25h[?25l[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-p[32X[32C[24;49H[?25h[?25llugin:2.22.1:test[m [1m(defaul[?25h[?25l
+t-test)[m @ [36mtutmaven[0;1m ---[m[41X[41C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m][64X[64C[24;17H[?25h[?25l -----------------[?25h[?25l--------------------------------------[?25h[?25l
+[[1;34mINFO[m]  T E S T S[53X[53C[?25h[?25l
+[[1;34mINFO[m] -------------------[44X[44C[24;37H[?25h[?25l-----------------------------------[?25h-[?25l
+[80X[80C[?25h[[1[?25l;34mINFO[m] Running org.ee461l.[?25h[?25ltutor[?25h[?25lial.[1mAppT[?25h[?25lest[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skippe[?25h[?25l
+[80X[80C[?25h[?25ld: 0, Time elapsed: 0.121 s - in org.ee461l.tutorial.[1mAppTest[[?25hm[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] Results:[55X[55C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, S[?25h[?25lkipped: 0[m[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.[29X[29C[24;52H[?25h[?25l0.2:jar[m [1m(default-jar)[?25h[?25l
+[m @ [36mtutmaven[0;1m ---[m[49X[49C[24;32H[?25h[?25l[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Building jar: C:\cygwin64\home\Ugly\app-tutmaven\target\tutmave[?25h[?25l
+n-1.0.jar[71X[71C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m------------------------------[?25h[?25l-----------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;[75X[75C[24;6H[?25h[?25l34mINFO[m] [1;32mBUILD SUCCESS[m[?25h[?25l
+[[1;34mINFO[m][64X[64C[24;17H[?25h[?25l [1m-----------------------------------------------------------[?25h[?25l
+-------[73X[73C[24;8H[?25h[?25l------[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Total time:  7.374 s[?25h[?25l
+[[1;34mINFO[m] Finished a[53X[53C[24;28H[?25h[?25lt: 2020-02-20T13:49:01-06:00[?25h[?25l
+[[1;34mINFO[m] [1m------------------------------[29X[29C[24;52H[?25h[?25l--------------------[?25h[?25l---------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ mvn package
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m-------------------[40X[40C[24;41H[?25h[?25l-< [0;36morg.ee461l.tutorial:tutmaven[[?25h[?25l
+0;1m >-----[69X[69C[24;12H[?25h[?25l---------------[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding tutmaven 1.0[m[35X[35C[?25h[?25l
+[[1;34mINFO[m] [1m-----------------[42X[42C[24;39H[?25h[?25l---------------[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.[21X[21C[24;60H[?25h[?25l2:resources[m [1m(d[?25h[?25l
+efault-resources)[m @ [36mtutmaven[0;1m ---[m[31X[31C[?25h[?25l
+[80X[80C[?25h[[?25l[1;33mWARNING[m] Usi[?25h[?25lng platform encoding (Cp1252 actually) to copy f[?25h[?25liltered r[?25h[?25l
+esourc[74X[74C[24;7H[?25h[?25les, i.e. build is platform dependent![?25h[?25l
+[[79X[79C[24;2H[?25h[?25l[1;34mINFO[m] skip n[?25h[?25lon existing resourceDirectory C:\c[?25h[?25lygwin64\home\Ugly\app-t[?25h[?25l
+utmaven\src\main\resources[54X[54C[?25h[?25l
+[[1;34mINFO[m][64X[64C[24;18H[?25h[?25l[?25h[?25l
+[[1;34mINFO[m][64X[64C[24;18H[?25h[?25l[1m--- [0;32mmaven-compil[?25h[?25ler-plugin:3.8.0:compile[m [1m(defa[?25h[?25l
+ult-compile)[m @ [36mtutmav[51X[51C[24;30H[?25h[?25len[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Changes detected - recompiling the module![?25h[?25l
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding Cp12[?25h[?25l
+52, i.e. build[66X[66C[24;15H[?25h[?25l is platform dependent![?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Compiling 3 source files to C:\cygwin64\home\Ugly\app-tutmaven\[?25h[?25l
+target\classes[66X[66C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResources[m [[?25h[?25l
+1m(default-testResources)[m @ [36mtutmaven[0;1m ---[26X[26C[24;55H[?25h[?25l[m[?25h[?25l
+[[1;33mWARNING[m] Using pla[51X[51C[24;30H[?25h[?25ltform encoding (Cp1252 actually) to copy filtered r[?25h[?25l
+esources, i.e. build is platform dependent![37X[37C[?25h[?25l
+[[1;34mINFO[m] skip no[56X[56C[24;25H[?25h[?25ln existing resourceDirectory C:\cygwin64\home\Ugly\app-t[?25h[?25l
+utmaven\src\test\resources[54X[54C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[67X[67C[24;14H[?25h[?25l[m] [1m--- [?25h[?25l[0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1[?25h[?25lm([?25h[?25l
+default-testCompile)[m @ [36mtutmaven[0;1m ---[m[28X[28C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Nothing to compile - all classes are up to date[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m][64X[64C[24;17H[?25h[?25l [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(def[?25h[?25laul[?25h[?25l
+t-test)[m @ [36mtutmaven[0;1m ---[m[41X[41C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] -------------------------------------------------------        [?25h[?25l
+[[1;34mINFO[m]  T E S[57X[57C[24;25H[?25h[?25lT S[?25h[?25l
+[[1;34mINFO[m] ---------------[48X[48C[24;33H[?25h[?25l----------------------------------------[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Running org.e[?25h[?25le461l.tutori[?25h[?25lal.[1mAppTes[?25h[?25lt[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skippe[?25h[?25l
+d: 0, Time elapsed: 0.061 s - in org.ee461l.tutorial.[1mAppTest[m[13X[13C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] Results:[55X[55C[?25h[?25l
+[[1;34mIN[70X[70C[24;11H[?25h[?25lFO[m] [?25h[?25l
+[[1;34mINFO[m] [1;32mTests run: 1, Failure[35X[35C[24;46H[?25h[?25ls: 0, Errors: 0, Skipped: 0[m[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-[42X[42C[24;39H[?25h[?25ljar-plugin:3.0.2:jar[m [1m(default-jar)[?25h[?25l
+[m @ [36mtutmaven[0;[58X[58C[24;23H[?25h[?25l1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Building jar: C:\cygwin64\home\Ugly\app-tutmaven\target\tutmave[?25h[?25l
+n-1.0.jar[71X[71C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[67X[67C[24;14H[?25h[?25l[m[?25h[?25l
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m[40X[40C[24;41H[?25h[?25l[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+---[77X[77C[24;4H[?25h[?25l----------[m[?25h[?25l
+[[1;34mINFO[m][64X[64C[24;18H[?25h[?25lTotal time:  7.457 s[?25h[?25l
+[[1;34mINFO[m] Finished at:[51X[51C[24;31H[?25h[?25l2020-02-20T13:49:22-06:00[?25h[?25l
+[[1;34mINFO[m] [1m------------------[41X[41C[24;40H[?25h[?25l-----------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ mvn package[1Pverifypackage[C[C[Kjava -jar target/app-[K[K[K[Ktutmaven-1.0.jar 
+bash: java: command not found
+]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ mvn compie[Kle
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;33mWARNING[m] [?25h[?25l
+[[1;33mWARNING[m] Some problems were encountered while building the effective [?25h[?25l
+model for[71X[71C[24;11H[?25h[?25lorg.ee461l.tutorial:tutmaven:jar:1.0[?25h[?25l
+[[1;33mWARNING[m] 'build.plugin[47X[47C[24;34H[?25h[?25lManagement.plugins.plugin.(groupId:artifactId)'[?25h[?25l
+ must be unique but found duplicate declaration of plugin org.codehaus[10X[10C[24;71H[?25h[?25l.mojo:exec[?25h[?25l
+-maven-plugin @ line 95, column 9[47X[47C[?25h[?25l
+[[1;33mWARNING[m][61X[61C[?25h[?25l
+[[1;33mWARN[68X[68C[24;13H[?25h[?25lING[m] It is highly recommended to fix these problems because they [?25h[?25l
+threaten the stability of your build.[43X[43C[?25h[?25l
+[80X[80C[?25h[?25l[[1;33mWARNING[m] [?25h[?25l
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer suppo[?25h[?25l
+rt building such malformed[54X[54C[24;27H[?25h[?25l projects.[?25h[?25l
+[[1;33mWARNING[m][61X[61C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--------------------< [0;36morg.ee461l.tutorial:tutmaven[[?25h[?25l
+0;1m >--------------------[53X[53C[24;28H[?25h[?25l[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding tutmaven 1.0[m[35X[35C[?25h[?25l
+[[1;34mINFO[m] [1m--------------------------------[ jar ]--------------------[?25h[?25l
+-[79X[79C[24;2H[?25h[?25l------------[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(d[?25h[?25l
+efault-resources)[m @ [36m[52X[52C[24;29H[?25h[?25ltutmaven[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;33mWARNING[m] Using platform encoding (Cp1252 actually) to copy filtered r[?25h[?25l
+esources, i.e. build is platform dependent![37X[37C[?25h[?25l
+[[1;34mINFO[m] skip non existing re[43X[43C[24;38H[?25h[?25lsourceDirectory C:\cygwin64\home\Ugly\app-t[?25h[?25l
+utmaven\src\main\resources[54X[54C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [62X[62C[24;19H[?25h[?25l[1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(defa[?25h[?25l
+ult-compile)[m @ [36mtutmaven[0;1m ---[m[36X[36C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Changes detected - recompiling the module![?25h[?25l
+[80X[80C[?25h[?25l[[1;33mWARNING[m] File encoding has not been set, using pla[?25h[?25ltform encoding Cp12[?25h[?25l
+52, i.e. build is platform dependent![43X[43C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Compiling 3 so[?25h[?25lur[?25h[?25lce files to C:\cygwin64\home\Ugly\app-tutmaven\[?25h[?25l
+target\classes[66X[66C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m[40X[40C[?25h[?25l
+[[1;34mINFO[68X[68C[24;13H[?25h[?25l[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[[66X[66C[24;15H[?25h[?25lm] Total time:  2.342 s[?25h[?25l
+[[1;34mINFO[m] Finished at: 2020-02-20T13:59:39-06:00[25X[25C[?25h[?25l
+[[1;34mINFO[m] [1m-------[52X[52C[24;29H[?25h[?25l----------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ mvn exec:java
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;33mWARNING[m] [?25h[?25l
+[[1;33mWARNING[m] Some problems were encountered while building the effective [?25h[?25l
+model for org.ee[64X[64C[24;17H[?25h[?25l461l.tutorial:tutmaven:jar:1.0[?25h[?25l
+[[1;33mWARNING[m] 'build.pluginManagement.plugins.plugin.(groupId[13X[13C[24;68H[?25h[?25l:artifactId)'[?25h[?25l
+ must be unique but found duplicate declaration[33X[33C[24;48H[?25h[?25l of plugin org.codehaus.moj[?25h[?25lo:exec[?25h[?25l
+-maven-plugin @ line 95, column 9[47X[47C[?25h[?25l
+[[1;33mWARNING[64X[64C[24;17H[?25h[?25l[m] [?25h[?25l
+[[1;33mWARNING[m] It is highly recommended to fi[30X[30C[24;51H[?25h[?25lx these problems because they [?25h[?25l
+threaten the stability of your build.[43X[43C[?25h[?25l
+[[1;33mWARNING[m][61X[61C[?25h[?25l
+[[78X[78C[24;3H[?25h[?25l[1;33mWARNING[m] For this reason, future Maven version[?25h[?25ls might no longer suppo[?25h[?25l
+rt building such malfor[57X[57C[24;24H[?25h[?25lmed projects.[?25h[?25l
+[[1;33mWARNING[m][61X[61C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--------------------< [0;36morg.ee461l.tutorial:tutmaven[[?25h[?25l
+0;1m >--------------------[m[51X[51C[?25h[?25l
+[[1;34mINFO[m] [1m[59X[59C[24;22H[?25h[?25lBuilding tutmaven 1.0[m[?25h[?25l
+[[1;34mINFO[m] [1m--------------------------------[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m][?25h [?25l
+[[1;34mINFO[m] [1m>>> [0;32mexec-maven-plugin:1.2.1:java[m [1m(default-cli[?25h[?25l
+)[0[76X[76C[24;5H[?25h[?25l;1m [?25h[?25l> [0;1mvalidate[m @ [36mtutmaven[0;1m >>>[m[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[79X[79C[24;2H[?25h[?25l[1;34mINFO[m] [1m<<< [0;32mexec-maven-plugin:1.2.1:java[m [1m(default-cli[?25h[?25l
+)[0;1m < [0;1mvalidate[m @ [36mtutmaven[0;1m <<<[m[24X[24C[?25h[?25l
+[[79X[79C[24;2H[?25h[?25l[1;34mINFO[m] [?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.2.1:java[m [1m(default-cli[?25h[?25l
+)[m @ [36mtutmaven[0;1m ---[m[47X[47C[?25h[?25l
+[80X[80C[?25h[[?25l[1;33mWARNING[m] [?25h[?25l
+[1;31mjava.lang.ClassNotFoundException[m: [1;31morg.ee461l.tutorial.Circle[m[?25h[?25l
+[80X[80C[?25h[?25l
+    [1mat[m java.net.URLClassLoader.findClass[33X[33C[24;48H[?25h[?25l ([1mURLClassLoader.java:382[m)[?25h[?25l
+[80X[80C[?25h[?25l
+    [1mat[m java.lang.ClassLoader.loadClass ([1mClassLoader.java:418[m)     [?25h[?25l
+    [1mat[m java.lan[58X[58C[24;23H[?25h[?25lg.ClassLoader.loadClass ([1mClassLoader.java:351[m)[?25h[?25l
+    [1mat[m org.codehaus.mojo.exec.ExecJavaMojo$1.run ([1mExecJavaMojo.java:2[?25h[?25l
+85[m)[74X[74C[?25h[?25l
+    [1mat[[68X[68C[24;13H[?25h[?25lm java.lang.Thread.run ([1mThread.java:748[m)[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;31mBUI[53X[53C[24;28H[?25h[?25lLD FAILURE[m[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Total time:  1.460 s[?25h[?25l
+[[1;34mINFO[m] Finished at: 2020-02-20T13:59:50-06:00[25X[25C[?25h[?25l
+[[1;34mINFO[m] [1m----------[49X[49C[24;32H[?25h[?25l-------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;31mERROR[m] Failed to execute goal [32morg.codeha[24X[24C[24;57H[?25h[?25lus.mojo:exec-maven-plugi[?25h[?25l
+n:1.2.1:java[m [1m(default-cli)[m on project [36mtutmaven[m: [1;31mAn exce[?25h[?25l
+ption occured while exe[57X[57C[24;24H[?25h[?25lcuting the Java class. org.ee461l.tutorial.Circle[m -> [?25h[?25l
+[1m[Help 1][m[66X[66C[?25h[?25l
+[[79X[79C[24;2H[?25h[?25l[1;31mERROR[m] [?25h[?25l
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with t[?25h[?25l
+he [1m-e[m switch.[60X[60C[?25h[?25l
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable fu[10X[10C[24;71H[?25h[?25lll debug l[?25h[?25l
+ogging.[73X[73C[?25h[?25l
+[[1;31mERROR[m][63X[63C[?25h[?25l
+[[1;31mERROR[m] For more information about the errors and possible solutions, [?25h[?25l
+please read the following articles:[45X[45C[24;36H[?25h[?25l[?25h[?25l
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAV[?25h[?25l
+EN/MojoExecutionException[55X[55C[?25h[?25l
+[80X[80C[?25h]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ mvn exec:java[C[C[C[C[C[C[2Pcompileexec:java[C[C[C[C[C[C[2Pcompileexec:java[C[C[C[C[C[C[2Pcompile
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--------------------< [0;36morg.ee461l.tutorial:tutmaven[[?25h[?25l
+0;1m >--------------[60X[60C[24;21H[?25h[?25l------[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding tutmaven 1.0[m[35X[35C[?25h[?25l
+[[1;34mINFO[m] [1m--------------------------------[27X[27C[24;54H[?25h[?25l[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(d[?25h[?25l
+efault-r[72X[72C[24;9H[?25h[?25lesources)[m @ [36mtutmaven[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;33mWARNING[m] Using platform encoding (Cp1252 actually) to copy filtered r[?25h[?25l
+esources, i.e. build is platform dependent![37X[37C[?25h[?25l
+[[1;34mINFO[m] skip non existing resour[39X[39C[24;42H[?25h[?25lceDirectory C:\cygwin64\home\Ugly\app-t[?25h[?25l
+utmaven\src\main\resources[54X[54C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mIN[70X[70C[24;11H[?25h[?25lFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(defa[?25h[?25l
+ult-compile)[m @ [36mtutmaven[0;1m ---[m[36X[36C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Changes detected - recompiling the module![?25h[?25l
+[[1;33mWARNING[m] File encoding has not been set, using pl[20X[20C[24;61H[?25h[?25latform encoding Cp12[?25h[?25l
+52, i.e. build is platform dependent![43X[43C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Compiling 3 source files to C:\cygwin64\home\Ugly\app-tutmaven\[?25h[?25l
+target\classes[66X[66C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m[40X[40C[?25h[?25l
+[[1;34mINFO[[66X[66C[24;15H[?25h[?25lm] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] Total[58X[58C[24;23H[?25h[?25l time:  2.590 s[?25h[?25l
+[[1;34mINFO[m] Finished at: 2020-02-20T14:03:11-06:00[25X[25C[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+------------[68X[68C[24;13H[?25h[?25l-[m[?25h[?25l
+[80X[80C[?25h]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ mvn compileexec:java
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--------------------< [0;36morg.ee461l.tutorial:tutmaven[[?25h[?25l
+0;1m >------[68X[68C[24;13H[?25h[?25l--------------[m[?25h[?25l
+[[1;34mINFO[m] [1mBuilding tutmaven 1.0[m[35X[35C[?25h[?25l
+[[1;34mINFO[m] [1m----------[49X[49C[24;32H[?25h[?25l----------------------[ jar ]--------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m>>> [0;32mexec-maven-plugin:1.2.1:java[m [1m(default-cli[?25h[?25l
+)[0;1m > [0;1mvalidate[m @ [49X[49C[24;32H[?25h[?25l[36mtutmaven[0;1m >>>[m[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[[1;34mINFO[m] [1m<<< [0;32mexec-maven-plugin:1.2.1:java[m[17X[17C[24;65H[?25h[?25l[1m(default-cli[?25h[?25l
+)[0;1m < [0;1mvalidate[m @ [36mtutmaven[0;1m <<<[m[24X[24C[?25h[?25l
+[[1;34mINFO[m][64X[64C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.2.1:java[m [1m(default-cli[?25h[?25l
+)[m @ [36mtutmaven[0;1m ---[m[47X[47C[?25h[?25l
+[80X[80C[?25h[[?25l[1;33mWARNING[m] [?25h[?25l
+[1;31mjava.lang.ClassNotFoundException[m: [1;31morg.ee461l.tutorial.Circle[m[?25h[?25l
+[80X[80C[?25h[?25l
+    [1mat[m java.net.URLClassLoader.[42X[42C[24;39H[?25h[?25lfindClass ([1mURLClassLoader.java:382[m)[?25h[?25l
+[80X[80C[?25h[?25l
+    [1mat[m java.lang.ClassLoader.loadCla[37X[37C[24;44H[?25h[?25lss ([1mClassLoader.java:418[m)[?25h[?25l
+    [1mat[m java.lang.ClassLoader.[44X[44C[24;37H[?25h[?25lloadClass ([1mClassLoader.java:351[m)[?25h[?25l
+    [1mat[m org.codehaus.mojo.exec.E[42X[42C[24;39H[?25h[?25lxecJavaMojo$1.run ([1mExecJavaMojo.java:2[?25h[?25l
+85[m)[74X[74C[?25h[?25l
+    [1mat[69X[69C[24;12H[?25h[?25l[m java.lang.Thread.run ([1mThread.java:748[m)[?25h[?25l
+[[1;34mINFO[m] [1m[59X[59C[24;22H[?25h[?25l-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m[40X[40C[?25h[?25l
+[[1;34mINFO[m] [1m----------------------------------------------[13X[13C[24;68H[?25h[?25l-------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[[1;34mINFO[m] Total time:  1.271 s[43X[43C[?25h[?25l
+[[1;34mINFO[m] Finished at: 2020-02-20T14:03:19[31X[31C[24;50H[?25h[?25l-06:00[?25h[?25l
+[[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;31mERROR[m] Failed to execute goal [32morg.codehaus.mojo:exec-maven-plugi[?25h[?25l
+n:1.2.1:java[m [1m(default-cli)[m on project [36mtutmaven[m: [1;31mAn exce[?25h[?25l
+ption oc[72X[72C[24;9H[?25h[?25lcured while executing the Java class. org.ee461l.tutorial.Circle[m -> [?25h[?25l
+[1m[Help 1][m[66X[66C[?25h[?25l
+[[1;31mERROR[m][63X[63C[?25h[?25l
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with t[?25h[?25l
+h[79X[79C[24;2H[?25h[?25le [1m-e[m switch.[?25h[?25l
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug l[?25h[?25l
+ogging.[73X[73C[?25h[?25l
+[[1;31mERROR[m][63X[63C[?25h[?25l
+[[1;31mERROR[m] For more information about th[33X[33C[24;48H[?25h[?25le errors and possible solutions, [?25h[?25l
+please read the following articles:[45X[45C[?25h[?25l
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAV[?25h[?25l
+EN/MojoExecutionException[55X[55C[?25h[?25l
+[80X[80C[?25h]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ mvn exec:java[C[C[C[C[C[C[2Pcompileexec:java[C[C[C[C[C[C[2Pcompile[C[Cjava -jar target/tutmaven-1.0.jar [C[Cmvn compile[K[C[Cjava -jar target/tutmaven-1.0.jar 
+bash: java: command not found
+]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ echo JAVA_HOME
+JAVA_HOME
+]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ mvn site
+[[?25l[1;34mINFO[m] Scanning for projects...[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--------------------< [0;36morg.ee461l.tutor[14X[14C[24;67H[?25h[?25lial:tutmaven[[?25h[?25l
+0;1m >--------------------[m[51X[51C[?25h[?25l
+[[1;34mINFO[m] [1mBuilding tut[47X[47C[24;34H[?25h[?25lmaven 1.0[m[?25h[?25l
+[[1;34mINFO[m] [1m--------------------------------[ jar ]--------------------[?25h[?25l
+---[77X[77C[24;4H[?25h[?25l----------[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [?25h[?25l
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plu[34X[34C[24;47H[?25h[?25lgin:3.7.1:site[m [1m(default-sit[?25h[?25l
+[80X[80C[?25h[?25le)[m @ [36mtutmaven[0;1m ---[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;33mWARNING[m] Input file encoding has not been set, us[?25h[?25ling platform encodin[?25h[?25l
+g Cp1252, i.e. build is platform dependent![37X[37C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] configuring report plugin org.apache.maven.plugins:maven-projec[?25h[?25l
+t-info-reports-plugin:3.0.0[53X[53C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] 15 reports detected for maven-project-info-reports-pl[?25h[?25lugin:3.0.0[?25h[?25l
+: ci-management, dependencies, dependency-info, dependency-management, distribut[?25h[?25l
+ion-manag[71X[71C[24;10H[?25h[?25lement, index, issue-management, licenses, mailing-lists, modules, plugi[?25h[?25l
+n-management, plugins, scm, summary, team[39X[39C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1mRendering site with default locale English (en)[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Relativizing decoration links with respect to localized project[?25h[?25l
+ URL: http://maven.apache.org[51X[51C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Rendering content with [1morg.apache.maven.skins:maven-default[?25h[?25l
+-skin:jar:1.2 skin[m.[58X[58C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Generating "[1mDependencies[m" report [1m --- [0;32mmaven-p[?25h[?25l
+roject-info-reports-plugin:3.0.0:dependencies[m[32X[32C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Gene[?25h[?25lrating "[1mDependency Informa[?25h[?25ltion[m" report[1m --- [0;3[?25h[?25l
+2mmaven-project-info-reports-plugin:3.0.0:de[36X[36C[24;45H[?25h[?25lpendency-info[m[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Generating "[1mAbout[m" report        [1m --- [0;32mmaven-p[?25h[?25l
+roject-info-reports-plugin:3.0.0:index[m[39X[39C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Generating "[1mPlugin Management[m" report[1m --- [0;32mmav[?25h[?25l
+en-project-info-reports-plugin:3.0.0:plugin-management[m[23X[23C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+plugins/maven-javadoc-plugin/3.1.1/maven-javadoc-p[30X[30C[24;51H[?25h[?25llugin-3.1.1.pom[?25h[?25l
+[80X[80C[?25hP[?25lProgress (1): 7.8/18 kB[24;21H[?25h[?25lProgress (1): 16/18 kB [?25h[?25lProgress (1): 18 kB   [?25h [?25lDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/p[?25h[?25l
+lugins/maven-javadoc-plugin/3.1.1/maven-jav[37X[37C[24;44H[?25h[?25ladoc-plugin-3.1.1.pom (18 kB at 14 kB[?25h[?25l
+/s)[77X[77C[?25h[?25l
+[80X[80C[?25hD[?25lownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/[?25h[?25l
+plugins/maven-plugins/33/maven-plugins-33.[38X[38C[24;43H[?25h[?25lpom[?25h[?25l
+[80X[80C[?25h[?25lProgress (1): 2.2/11 kB[?25h[?25lProgress (1): 11/11 kB [24;13H[?25h[?25l: 11 kB   [?25h [?25lD[18X[18C[24;2H[?25h[?25lownloaded from central[?25h[?25l: https://repo.maven.[?25h[?25lapache.org/maven2/org[?25h[?25l/apache/maven/p[?25h[?25l
+lugin[75X[75C[24;6H[?25h[?25ls/maven-plugins/33/ma[?25h[?25lven-plugins-33.pom (1[?25h[?25l1 kB at 126 kB/s)[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Generating "[1mPlugins[m" report      [1m --- [0;32mmaven-p[?25h[?25l
+roject-info-reports-plugin:3.0.0:plugins[m[37X[37C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] Generating "[1mSummary[m" report      [1m --- [0;32mmaven-p[?25h[?25l
+roject-info-reports-plugin:3.0.0:summary[m[37X[37C[?25h[?25l
+[80X[80C[?25h[[?25l[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+--[78X[78C[24;3H[?25h[?25l-----------[m[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] [1;32mBUILD [?25h[?25lSUCCESS[m[?25h[?25l
+[[1;34mINFO[m] [1m------------------------[35X[35C[24;46H[?25h[?25l-----------------------------------[?25h[?25l
+-------------[m[64X[64C[?25h[?25l
+[80X[80C[?25h[?25l[[1;34mINFO[m] Total time:  8.[?25h[?25l681 s[?25h[?25l
+[[1;34mINFO[m] Finished at: 2020-02-20T14:06:15-06:00[25X[25C[?25h[?25l
+[[79X[79C[24;2H[?25h[?25l[1;34mINFO[m] [1m-----------------------------------------------------------[?25h[?25l
+--------[72X[72C[24;9H[?25h[?25l-----[m[?25h[?25l
+[80X[80C[?25h]0;~/app-tutmaven
+[32mUgly@DESKTOP-S23UG9M [33m~/app-tutmaven[0m
+$ exit
+exit
+
+Script done on 2020-02-20 14:06:23-06:00 [COMMAND_EXIT_CODE="0"]

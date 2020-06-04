@@ -1,0 +1,211 @@
+Script started on Thu 06 Feb 2020 07:55:46 AM CST
+[?1034heruiz@kamek (/home/ecelrc/students/eruiz/git-katas) % cd basic-branching/
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching) % whoami
+eruiz
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching) % ./setup.sh 
+Initialized empty Git repository in /home/ecelrc/students/eruiz/git-katas/basic-branching/exercise/.git/
+[master (root-commit) a6b2793] dummy commit
+ Committer: Eduardo S Ruiz <eruiz@kamek.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 dummy.txt
+Switched to a new branch 'second-branch'
+Switched to branch 'master'
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching) % ls 
+exercise  README.md  setup.ps1	setup.sh
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching) % cat README.md 
+# Git Kata: Basic Branching
+## Setup:
+
+1. Run `. setup.sh` (or `.\setup.ps1` in PowerShell)
+
+## The task
+You again live in your own branch, this time we will be doing a bit of juggling with branches, to show how lightweight branches are in git.
+Hint: `git checkout` will make you switch from one branch to another.
+
+1. Use `git branch` to see the two branches that are relevant for this exercise
+2. What branch are you on?
+3. Use `git branch mybranch` to create a new branch called _mybranch_
+4. Use `git branch` again to see the new branch created.
+5. Use `git checkout mybranch` to switch to your new branch.
+6. How does the output from `git status` change when you switch between the _master_ and the new branch that you have created?
+7. How does the workspace change when you change between the two branches?
+8. Make sure you are on your _mybranch_ branch before you continue.
+9. Create a file called `file1.txt` with your name.
+10. `Add` the file and `commit` with this change.
+11. Use `git log --oneline --graph` to see your branch pointing to the new commit.
+12. Switch back to the branch called _master_.
+13. Use `git log --oneline --graph` and notice how the commit you made on the _mybranch_ branch is missing on the _master_ branch.
+14. Make a new file called `file2.txt` and commit that file.
+15. Use `git log --oneline --graph --all` to see your branch pointing to the new commit, and that the two branches now have different commits on them.
+16. Switch to your branch _mybranch_.
+17. What happened to your working directory? Can you see your `file2.txt`?
+18. Use `git diff mybranch master` to see the difference between the two branches.
+
+## Useful commands
+- `git checkout`
+- `git checkout -b`
+- `git log --oneline --graph`
+- `git branch`
+- `git diff`
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching) % git branch
+* master
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching) % git branch mybranch
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching) % git branch
+* master
+  mybranch
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching) % git chr[Keckout mybranch
+Switched to branch 'mybranch'
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching) % git status
+# On branch mybranch
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	../basic-commits/typescript
+#	../git-1.txt
+#	../git-2.txt
+#	../git-3.txt
+nothing added to commit but untracked files present (use "git add" to track)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching) % /[Kcd exercise/
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % ls
+dummy.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git branch
+* master
+  second-branch
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git branch mybranch
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git checkout [K[K[K[K[K[K[K[K[Kbranch
+* master
+  mybranch
+  second-branch
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git checkout mybranch
+Switched to branch 'mybranch'
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git branch
+  master
+* mybranch
+  second-branch
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git status
+# On branch mybranch
+nothing to commit (working directory clean)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git checkout master gi[K[K[K[Kr
+Switched to branch 'master'
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git status
+# On branch master
+nothing to commit (working directory clean)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % ls
+dummy.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git [K checkout mybranch
+Switched to branch 'mybranch'
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % ls
+dummy.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % cat > eduardoruiz.txt
+testing text1
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % add eduardoruiz.txt 
+bash: add: command not found
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git af[Kdd eduardoruiz.txt 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git[Kt status
+# On branch mybranch
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   eduardoruiz.txt
+#
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git commit -m "Created new file"
+[mybranch 03db6f9] Created new file
+ Committer: Eduardo S Ruiz <eruiz@kamek.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 eduardoruiz.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git log --oneline --graph
+[?1h=* 03db6f9 Created new file[m
+* a6b2793 dummy commit[m
+[K[?1l>eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % creat[K[K[K[K[Kgit checkout master
+Switched to branch 'master'
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git checkout masterlog --oneline --graph
+[?1h=* a6b2793 dummy commit[m
+[K[?1l>eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % cat git log --oneline --graphcat [Kgit log --oneline --graph[6Pcheckout masterlog --oneline --graphcommit -m "Created new file"status[Kadd eduardoruiz.txt [4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@git [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@2
+fatal: pathspec 'eduardoruiz2.txt' did not match any files
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git add eduardoruiz2.txt log --oneline --graph[6Pcheckout masterlog --oneline --graphcommit -m "Created new file"status[Kadd eduardoruiz.txt [4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat > eduardoruiz.txtls[Kcat > eduardoruiz.txt[C2.txt
+testing tes xt2
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % cat > eduardoruiz2.txtgit add eduardoruiz2.txt log --oneline --graph --all
+[?1h=* 03db6f9 Created new file[m
+* a6b2793 dummy commit[m
+[K[?1l>eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % com[K[K[Kgit commit eduardoruiz2.txt -m "Created newf[K file2"
+error: pathspec 'eduardoruiz2.txt' did not match any file(s) known to git.
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % ls
+dummy.txt  eduardoruiz2.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % lsgit commit eduardoruiz2.txt -m "Created new file2"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat eduardoruiz2.txt 
+testing text2
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	eduardoruiz2.txt
+nothing added to commit but untracked files present (use "git add" to track)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % add eduardoruiz2.txt 
+bash: add: command not found
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git add eduardoruiz2.txt 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git[K[K[Kgit add eduardoruiz2.txt [4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pgit statuscat eduardoruiz2.txt ls[Kgit commit eduardoruiz2.txt -m "Created new file2"
+[master 711bd37] Created new file2
+ Committer: Eduardo S Ruiz <eruiz@kamek.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 eduardoruiz2.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git commit eduardoruiz2.txt -m "Created new file2"[25Padd eduardoruiz2.txt [4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pgit statuscat eduardoruiz2.txt ls[Kgit commit eduardoruiz2.txt -m "Created new file2"[19Plog --oneline --graph --all
+[?1h=* 711bd37 Created new file2[m
+| * 03db6f9 Created new file[m
+|/  [m
+* a6b2793 dummy commit[m
+[K[?1l>eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % checko[K[K[K[K[K[Kgit checkout m[Kmybranch
+Switched to branch 'mybranch'
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % ls
+dummy.txt  eduardoruiz.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % git diff mybranch master
+[?1h=diff --git a/eduardoruiz.txt b/eduardoruiz.txt[m
+deleted file mode 100644[m
+index c95f609..0000000[m
+--- a/eduardoruiz.txt[m
++++ /dev/null[m
+@@ -1 +0,0 @@[m
+-testing text1[m
+diff --git a/eduardoruiz2.txt b/eduardoruiz2.txt[m
+new file mode 100644[m
+index 0000000..a8ff71f[m
+--- /dev/null[m
++++ b/eduardoruiz2.txt[m
+@@ -0,0 +1 @@[m
++testing text2[m
+[K[?1l>eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % [Keruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-branching/exercise) % exit
+exit
+
+Script done on Thu 06 Feb 2020 08:12:12 AM CST

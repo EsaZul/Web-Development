@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Eduardo Driving -->
+	<cronentries>
+		<cron>
+			<url>/cron/subscribe</url>
+			<description>Constantly Testing</description>
+			<schedule>every day 23:00</schedule>
+		</cron>
+</cronentries>
+<!--Eduardo end Driving-->

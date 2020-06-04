@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+
+  <body>
+
+  <input type="text" id="text1">
+
+  <button onclick = "hide()"> Hide </button>
+    <script>
+    function hide(){
+      text1.style.display = "none"
+    }
+    </script>
+
+  <button onclick = "show()"> Show </button>
+    <script>
+    function show(){
+    text1.style.display = "block"
+    }
+    </script>
+
+  <button onclick = "format()"> Format </button>
+    <script>
+    function format(){
+      document.getElementById("text1").style.backgroundColor = "green";
+      document.getElementById("text1").style.color = "red";
+      document.getElementById("text1").style.fontSize = "20px";
+      document.getElementById("text1").style.textAlign = "center";
+    }
+    </script>
+
+  <button onclick = "reset()""> Reset </button>
+    <script>
+    function reset(){
+      document.getElementById("text1").style.backgroundColor = "white";
+      document.getElementById("text1").style.color = "black";
+      document.getElementById("text1").style.fontSize = "14px";
+      document.getElementById("text1").style.textAlign = "left";
+      text1.style.display = "block"
+    }
+    </script>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,355 @@
+Script started on Thu 06 Feb 2020 07:15:41 AM CST
+[?1034heruiz@kamek (/home/ecelrc/students/eruiz/git-katas) % whoami
+eruiz
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas) % cd git[K[K[K[K basic-commits/
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % ls
+exercise  git-1.txt  README.md	setup.ps1  setup.sh  typescript
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % car[Kt README.mdd 
+# Git Kata: Basic Commits
+This kata will introduce you to the `git add` and `git commit` commands.
+
+This is a very introductory kata. if you have used `git status`, `git log --oneline --graph`, `git add` and `git commit` extensively you should probably skip it.
+
+You can look at the bottom of this file, if you have not yet done basic git configuration.
+
+## Setup:
+
+1. Run `. setup.sh` (or `.\setup.ps1` in PowerShell)
+
+## The task
+
+1. Use `git status` to see which branch you are on.
+2. What does `git log` look like?
+3. Create a file
+4. What does the output from `git status` look like now?
+5. `add` the file to the staging area
+6. How does `git status` look now?
+7. `commit` the file to the repository
+8. How does `git status` look now?
+9. Change the content of the file you created earlier
+10. What does `git status` look like now?
+11. `add` the file change
+12. What does `git status` look like now?
+13. Change the file again
+14. Make a `commit`
+15. What does the `status` look like now? The `log`?
+16. Commit the newest change
+
+## Useful commands
+- `git add`
+- `git commit`
+- `git commit -m "My commit message"`
+- `git log`
+- `git log -n 5`
+- `git log --oneline`
+- `git log --oneline --graph`
+- `touch filename` to create a file (or `sc filename ''` in PowerShell)
+- `echo content > file` to overwrite file with content (or `sc filename 'content'` in PowerShell)
+- `echo content >> file` to append file with content (or `ac filename 'content'` in PowerShell)
+
+
+## Git Initial Configuration
+1. `git config --global user.name "John Doe"`
+1. `git config --global user.email "johndoe@example.com`
+
+For the vim scared:
+- `git config --global core.editor nano`
+
+For the windows peeps:
+- `git config --global core.editor notepad`
+
+Other editor options:
+- `git config --global core.editor "atom --wait"`
+- `git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst"`
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % [Keruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	git-1.txt
+#	typescript
+#	../git-1.txt
+nothing added to commit but untracked files present (use "git add" to track)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % ./setup.sh 
+Initialized empty Git repository in /home/ecelrc/students/eruiz/git-katas/basic-commits/exercise/.git/
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % ls
+exercise  git-1.txt  README.md	setup.ps1  setup.sh  typescript
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	git-1.txt
+#	typescript
+#	../git-1.txt
+nothing added to commit but untracked files present (use "git add" to track)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % touch e[Knewfile.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	git-1.txt
+#	newfile.txt
+#	typescript
+#	../git-1.txt
+nothing added to commit but untracked files present (use "git add" to track)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % add .[Kgit-1.txt 
+bash: add: command not found
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git add git-1.txt 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   git-1.txt
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	newfile.txt
+#	typescript
+#	../git-1.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git newfile.txt 
+git: 'newfile.txt' is not a git command. See 'git --help'.
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git add newfile.txt 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   git-1.txt
+#	new file:   newfile.txt
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	typescript
+#	../git-1.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git commit -m Co[K[KFirst commit, did not do git log due to the[K[K[Kit being so long that my terminal w[Kdidnt work
+error: pathspec 'commit,' did not match any file(s) known to git.
+error: pathspec 'did' did not match any file(s) known to git.
+error: pathspec 'not' did not match any file(s) known to git.
+error: pathspec 'do' did not match any file(s) known to git.
+error: pathspec 'git' did not match any file(s) known to git.
+error: pathspec 'log' did not match any file(s) known to git.
+error: pathspec 'due' did not match any file(s) known to git.
+error: pathspec 'to' did not match any file(s) known to git.
+error: pathspec 'it' did not match any file(s) known to git.
+error: pathspec 'being' did not match any file(s) known to git.
+error: pathspec 'so' did not match any file(s) known to git.
+error: pathspec 'long' did not match any file(s) known to git.
+error: pathspec 'that' did not match any file(s) known to git.
+error: pathspec 'my' did not match any file(s) known to git.
+error: pathspec 'terminal' did not match any file(s) known to git.
+error: pathspec 'didnt' did not match any file(s) known to git.
+error: pathspec 'work' did not match any file(s) known to git.
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git commit -m First commit, did not do git log due to it being so long that my terminal didnt work[C[C[C[C[C[C[C"[C[C[1@"
+[master e7d148e] First commit, did not do git log due to it being so long that my terminal didnt work
+ Committer: Eduardo S Ruiz <eruiz@kamek.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 1 files changed, 1683 insertions(+), 0 deletions(-)
+ create mode 100644 basic-commits/git-1.txt
+ create mode 100644 basic-commits/newfile.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	typescript
+#	../git-1.txt
+nothing added to commit but untracked files present (use "git add" to track)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % echo content > hi[K[Knewfile.txt 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % hi
+bash: hi: command not found
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % hiecho content > newfile.txt hello
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   newfile.txt
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	typescript
+#	../git-1.txt
+no changes added to commit (use "git add" and/or "git commit -a")
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git add newfile.txt 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   newfile.txt
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	typescript
+#	../git-1.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git statusadd newfile.txt [10Pstatusecho content > newfile.txt hello[K[K[K[K[Kwhats uo
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   newfile.txt
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   newfile.txt
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	typescript
+#	../git-1.txt
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % commit -m "Log still not working"
+bash: commit: command not found
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % com[K[K[Kgit commit -m "Log still not working"
+[master b54d5fc] Log still not working
+ Committer: Eduardo S Ruiz <eruiz@kamek.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 2 commits.
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   newfile.txt
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	typescript
+#	../git-1.txt
+no changes added to commit (use "git add" and/or "git commit -a")
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % commit gi[K[K[K[K[K[K[K[K[Kgit commit newfile.txt 
+[?1049h[?1h=[1;49r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[49;1H".git/COMMIT_EDITMSG" 20L, 558C[2;1H# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i nor -o; assuming --only paths...
+#
+# Committer: Eduardo S Ruiz <eruiz@kamek.(none)>
+#
+# On branch master
+# Your branch is ahead of 'origin/master' by 2 commits.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#[7Cmodified:   newfile.txt
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#[7Ctypescript
+#[7C../git-1.txt
+[1m[34m~                                                                                                                                                                           [22;1H~                                                                                                                                                                           [23;1H~                                                                                                                                                                           [24;1H~                                                                                                                                                                           [25;1H~                                                                                                                                                                           [26;1H~                                                                                                                                                                           [27;1H~                                                                                                                                                                           [28;1H~                                                                                                                                                                           [29;1H~                                                                                                                                                                           [30;1H~                                                                                                                                                                           [31;1H~                                                                                                                                                                           [32;1H~                                                                                                                                                                           [33;1H~                                                                                                                                                                           [34;1H~                                                                                                                                                                           [35;1H~                                                                                                                                                                           [36;1H~                                                                                                                                                                           [37;1H~                                                                                                                                                                           [38;1H~                                                                                                                                                                           [39;1H~                                                                                                                                                                           [40;1H~                                                                                                                                                                           [41;1H~                                                                                                                                                                           [42;1H~                                                                                                                                                                           [43;1H~                                                                                                                                                                           [44;1H~                                                                                                                                                                           [45;1H~                                                                                                                                                                           [46;1H~                                                                                                                                                                           [47;1H~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [1;1H[?12l[?25h[?25l[1;48r[m[48;1H
+[1;49r[48;1H[1m[34m~                                                                                                                                                                           [m[49;1H[K[1;1H[?12l[?25h[?25lase enter the commit message for your changes. Lines starting[1;62H[K[1;1H[?12l[?25h
+
+
+
+
+[?25l[49;1H[1m-- INSERT --[m[6;1H[K[6;1H[?12l[?25h
+[6;1H[?25ls[?12l[?25h[?25ls[?12l[?25h[?25ld[?12l[?25h[?25l[7;48r[7;1H[L[1;49r[7;1H[?12l[?25h[?25l[6;48r[48;1H
+[1;49r[6;1Hssd[48;1H[1m[34m~                                                                                                                                                                           [6;4H[?12l[?25h[?25l[m[6;3H[K[6;3H[?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25ld[?12l[?25h[?25la[?12l[?25h[?25ld[?12l[?25h[?25la[?12l[?25h[?25ld[?12l[?25h[49;1H[K[6;12H[?25l[?12l[?25h[?25l[49;1H".git/COMMIT_EDITMSG" 19L, 563C written
+[?1l>[?12l[?25h[?1049l[master 55f7725] ase enter the commit message for your changes. Lines starting sssssssdadad
+ Committer: Eduardo S Ruiz <eruiz@kamek.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % add [K[K[K[Kgit add newfile.txt 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 3 commits.
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	typescript
+#	../git-1.txt
+nothing added to commit but untracked files present (use "git add" to track)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % commit [K[K[K[K[K[K[Kgit commit newfile.txt 
+# On branch master
+# Your branch is ahead of 'origin/master' by 3 commits.
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	typescript
+#	../git-1.txt
+nothing added to commit but untracked files present (use "git add" to track)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git add newfile.txt 
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git commit[Kt newfile.txt [K 
+# On branch master
+# Your branch is ahead of 'origin/master' by 3 commits.
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	typescript
+#	../git-1.txt
+nothing added to commit but untracked files present (use "git add" to track)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 3 commits.
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	typescript
+#	../git-1.txt
+nothing added to commit but untracked files present (use "git add" to track)
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % gti[K[Kit push
+error: The requested URL returned error: 403 Forbidden while accessing https://github.com/praqma-training/git-katas.git/info/refs
+
+fatal: HTTP request failed
+eruiz@kamek (/home/ecelrc/students/eruiz/git-katas/basic-commits) % e[Kwhoa[K[K[K[Kexit
+exit
+
+Script done on Thu 06 Feb 2020 07:29:27 AM CST
